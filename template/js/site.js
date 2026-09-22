@@ -46,6 +46,32 @@
     });
   }
 
+  const viewToggle = document.querySelector("[data-view-toggle]");
+  if (viewToggle && grid) {
+    const setView = (view) => {
+      const mode = view === "list" ? "list" : "grid";
+      grid.dataset.view = mode;
+      viewToggle.querySelectorAll("button[data-view]").forEach((b) => {
+        const on = b.dataset.view === mode;
+        b.classList.toggle("is-active", on);
+        b.setAttribute("aria-pressed", on ? "true" : "false");
+      });
+      try {
+        localStorage.setItem("work-view", mode);
+      } catch (_) {}
+    };
+    viewToggle.addEventListener("click", (e) => {
+      const btn = e.target.closest("button[data-view]");
+      if (!btn) return;
+      setView(btn.dataset.view);
+    });
+    let saved = "grid";
+    try {
+      saved = localStorage.getItem("work-view") || "grid";
+    } catch (_) {}
+    setView(saved);
+  }
+
   const carousel = document.querySelector("[data-hero-carousel]");
   if (carousel) {
     const root = carousel.closest(".hero-identity--carousel") || document;
