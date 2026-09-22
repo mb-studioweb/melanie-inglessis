@@ -10,16 +10,6 @@
     "category": "Editorial"
   },
   {
-    "id": "n2",
-    "slug": "sundance-2026",
-    "date": "2026-01",
-    "title": "Sundance — The Gallerist",
-    "summary": "Vogue covers Jenna Ortega’s dewy, skin-focused Sundance look with Mélanie Inglessis.",
-    "projectSlug": "sundance-the-gallerist-2026",
-    "sourceUrl": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
-    "category": "Red carpet"
-  },
-  {
     "id": "n3",
     "slug": "actor-awards-2026",
     "date": "2026-02",
@@ -27,6 +17,16 @@
     "summary": "Allure reports on Jenna Ortega’s Actor Awards beauty with Mélanie Inglessis using Dior Beauty.",
     "projectSlug": "actor-awards-2026",
     "sourceUrl": "https://www.allure.com/story/jenna-ortega-actor-awards-dark-brows",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n2",
+    "slug": "sundance-2026",
+    "date": "2026-01",
+    "title": "Sundance — The Gallerist",
+    "summary": "Vogue covers Jenna Ortega’s dewy, skin-focused Sundance look with Mélanie Inglessis.",
+    "projectSlug": "sundance-the-gallerist-2026",
+    "sourceUrl": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
     "category": "Red carpet"
   },
   {
@@ -40,6 +40,16 @@
     "category": "Press"
   },
   {
+    "id": "n10",
+    "slug": "the-cut-subcultures-2025",
+    "date": "2025-10",
+    "title": "The Cut: Inspired by Subcultures",
+    "summary": "Mélanie Inglessis on psychobilly roots, ethereal-goth language and Jenna Ortega as muse — The Cut muses interview.",
+    "projectSlug": null,
+    "sourceUrl": "https://www.thecut.com/article/jenna-ortega-makeup-artist-melanie-inglessis-inspired-by-subcultures.html",
+    "category": "Press"
+  },
+  {
     "id": "n5",
     "slug": "vogue-mexico-2025",
     "date": "2025-09",
@@ -50,6 +60,26 @@
     "category": "Cover"
   },
   {
+    "id": "n11",
+    "slug": "emmys-2025-variety",
+    "date": "2025-09",
+    "title": "Gothic dream at the 2025 Emmys",
+    "summary": "Variety shops Jenna Ortega’s Emmys products with quotes from @melaniemakeup and Dior Beauty notes.",
+    "projectSlug": "emmys-jenna-ortega-2025",
+    "sourceUrl": "https://variety.com/2025/shopping/news/jenna-ortega-emmys-makeup-products-buy-online-1236519318/",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n9",
+    "slug": "24-goth-hours-2025",
+    "date": "2025-08",
+    "title": "24 Goth Hours — Vogue",
+    "summary": "A multi-look Vogue story that explicitly discusses beauty direction across a full day with Jenna Ortega.",
+    "projectSlug": "vogue-24-goth-hours-2025",
+    "sourceUrl": "https://www.vogue.com/article/24-goth-hours-with-jenna-ortega",
+    "category": "Editorial"
+  },
+  {
     "id": "n6",
     "slug": "wednesday-s2-premiere-2025",
     "date": "2025-07",
@@ -57,6 +87,16 @@
     "summary": "Bleached brows, sculpted cheekbones, monochromatic skin and a dark lip — beauty direction detailed by Inglessis in Vogue UK.",
     "projectSlug": "wednesday-s2-premiere-2025",
     "sourceUrl": "https://www.vogue.co.uk/article/jenna-ortega-glam-wednesday-season-2",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n12",
+    "slug": "glamour-wednesday-premiere",
+    "date": "2025-07",
+    "title": "Dark feminine energy at Wednesday premiere",
+    "summary": "Glamour details Inglessis’ sculpted gothic look — radiant skin, smoky lids and bleached brows.",
+    "projectSlug": "wednesday-s2-premiere-2025",
+    "sourceUrl": "https://www.glamour.com/story/jenna-ortega-wednesday-premiere-makeup",
     "category": "Red carpet"
   },
   {
@@ -80,13 +120,83 @@
     "category": "Cover"
   },
   {
-    "id": "n9",
-    "slug": "24-goth-hours-2025",
-    "date": "2025-08",
-    "title": "24 Goth Hours — Vogue",
-    "summary": "A multi-look Vogue story that explicitly discusses beauty direction across a full day with Jenna Ortega.",
-    "projectSlug": "vogue-24-goth-hours-2025",
-    "sourceUrl": "https://www.vogue.com/article/24-goth-hours-with-jenna-ortega",
+    "id": "n13",
+    "slug": "ballerina-premiere-hb",
+    "date": "2025-05",
+    "title": "Getting ready: Ana de Armas × Ballerina",
+    "summary": "Harper’s Bazaar UK exclusive GRWM for the London premiere — Estée Lauder red lip technique.",
+    "projectSlug": "ballerina-premiere-ana-de-armas-2025",
+    "sourceUrl": "https://www.harpersbazaar.com/uk/beauty/make-up-nails/a64822567/getting-ready-with-ana-de-armas-ballerina-premiere/",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n14",
+    "slug": "oscars-2025-hb",
+    "date": "2025-03",
+    "title": "Best beauty looks at the 2025 Oscars",
+    "summary": "Harper’s Bazaar includes Ana de Armas / Inglessis for Estée Lauder among the night’s best looks.",
+    "projectSlug": "oscars-ana-de-armas-2025",
+    "sourceUrl": "https://www.harpersbazaar.com/beauty/makeup/g64001522/best-hair-makeup-beauty-oscars-2025/",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n15",
+    "slug": "sleek-leslie-bibb",
+    "date": "2025-03",
+    "title": "Leslie Bibb — In Full Bloom",
+    "summary": "Sleek Magazine editorial with Mélanie Inglessis makeup credit.",
+    "projectSlug": "sleek-leslie-bibb-2025",
+    "sourceUrl": "https://www.sleek-mag.com/article/leslie-bibb-starring-in-white-lotus-in-full-bloom/",
     "category": "Editorial"
+  },
+  {
+    "id": "n16",
+    "slug": "maisy-stella-critics-choice",
+    "date": "2025-02",
+    "title": "Maisy Stella at Critics Choice",
+    "summary": "Who What Wear covers timeless Critics Choice glam credited to Mélanie Inglessis.",
+    "projectSlug": "critics-choice-maisy-stella-2025",
+    "sourceUrl": "https://www.whowhatwear.com/fashion/celebrity/maisy-stella-critics-choice-awards",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n17",
+    "slug": "olivia-wilde-academy-museum",
+    "date": "2024-10",
+    "title": "Olivia Wilde × Academy Museum Gala",
+    "summary": "NewBeauty: TIRTIR cushion as red-carpet hero product with quotes from Inglessis.",
+    "projectSlug": "academy-museum-gala-olivia-wilde-2024",
+    "sourceUrl": "https://www.newbeauty.com/view/olivia-wilde-tirtir-foundation-academy-museum-gala",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n18",
+    "slug": "beetlejuice-soft-goth",
+    "date": "2024-08",
+    "title": "Soft goth on Beetlejuice press tour",
+    "summary": "NewBeauty roundup of Jenna Ortega’s soft-goth press looks with Inglessis.",
+    "projectSlug": "beetlejuice-press-tour-2024",
+    "sourceUrl": "https://www.newbeauty.com/view/jenna-ortega-beetlejuice-press-tour-makeup-looks",
+    "category": "Press"
+  },
+  {
+    "id": "n19",
+    "slug": "emmys-2024-glamour",
+    "date": "2024-01",
+    "title": "Elegant Emmys beauty (delayed 2023)",
+    "summary": "Glamour beauty breakdown for Jenna Ortega’s delayed Emmys — Daisy Plum lip, Soft Cashmere eyes.",
+    "projectSlug": "emmys-jenna-ortega-2024",
+    "sourceUrl": "https://www.glamour.com/story/jenna-ortega-emmys-look-2024",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n20",
+    "slug": "makeup-artistry-dinner-2020",
+    "date": "2020-02",
+    "title": "Honored at Makeup Artistry Dinner",
+    "summary": "Variety: Olivia Wilde helps honor Mélanie Inglessis — “She’s a healer.” Listed on Forward Artists press.",
+    "projectSlug": null,
+    "sourceUrl": "https://variety.com/2020/scene/news/maya-rudolph-rachel-mcadams-and-olivia-wilde-help-honor-their-makeup-artists-1203493748/",
+    "category": "Press"
   }
 ]
