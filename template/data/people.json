@@ -1,0 +1,180 @@
+[
+  {
+    "id": "person-01",
+    "slug": "jenna-ortega",
+    "name": "Jenna Ortega",
+    "profession": "Actor",
+    "relationshipStatus": "current",
+    "order": 1,
+    "heroImage": "images/people/jenna-ortega/hero.jpg",
+    "heroImageSource": "https://models.com/work/vogue-mexico-un-espiritu-libre",
+    "summary": "One of Mélanie’s strongest current collaborations — spanning editorial covers, red carpet and entertainment campaigns.",
+    "projectSlugs": [
+      "esquire-us-jenna-ortega-2026",
+      "vogue-mexico-jenna-ortega-2025",
+      "vogue-24-goth-hours-2025",
+      "netflix-wednesday-s2-2025",
+      "the-cut-jenna-ortega-2025",
+      "wednesday-s2-premiere-2025",
+      "met-gala-jenna-ortega-2025",
+      "academy-museum-gala-2025",
+      "instyle-imagemaker-2025",
+      "sundance-the-gallerist-2026",
+      "actor-awards-2026",
+      "motion-taste-jenna-ortega",
+      "motion-doritos-dina-mita"
+    ],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+      "https://www.vogue.mx/articulo/jenna-ortega-portada-vogue-septiembre-2025",
+      "https://www.vogue.com/article/24-goth-hours-with-jenna-ortega"
+    ]
+  },
+  {
+    "id": "person-02",
+    "slug": "ana-de-armas",
+    "name": "Ana de Armas",
+    "profession": "Actor",
+    "relationshipStatus": "current",
+    "order": 2,
+    "heroImage": "images/people/ana-de-armas/hero.jpg",
+    "heroImageSource": "https://models.com/work/wwd-wwd-weekend-may-2025-cover",
+    "summary": "A core current client relationship across red carpet, cover work and beauty campaigns.",
+    "projectSlugs": [
+      "wwd-weekend-ana-de-armas-2025",
+      "no-time-to-die-premiere-2021",
+      "blonde-premiere-2022",
+      "golden-globes-ana-de-armas-2023",
+      "motion-only-natural-diamonds",
+      "motion-la-mer-ana-de-armas"
+    ],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+      "https://www.vogue.com/article/ana-de-armas-bond-premiere-getting-ready",
+      "https://models.com/work/wwd-wwd-weekend-may-2025-cover"
+    ]
+  },
+  {
+    "id": "person-03",
+    "slug": "olivia-wilde",
+    "name": "Olivia Wilde",
+    "profession": "Actor / Director",
+    "relationshipStatus": "current",
+    "order": 3,
+    "heroImage": "images/people/olivia-wilde/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "summary": "Listed among Mélanie’s current clients — a long-running glam collaboration documented across red carpets and events.",
+    "projectSlugs": [],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press"
+    ]
+  },
+  {
+    "id": "person-04",
+    "slug": "kate-hudson",
+    "name": "Kate Hudson",
+    "profession": "Actor",
+    "relationshipStatus": "current",
+    "order": 4,
+    "heroImage": "images/people/kate-hudson/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "summary": "A current Forward Artists roster client with documented cover and red-carpet beauty work.",
+    "projectSlugs": [],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press"
+    ]
+  },
+  {
+    "id": "person-05",
+    "slug": "karlie-kloss",
+    "name": "Karlie Kloss",
+    "profession": "Model / Entrepreneur",
+    "relationshipStatus": "current",
+    "order": 5,
+    "heroImage": "images/people/karlie-kloss/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "summary": "Current client work spanning Met Gala beauty and fashion-model collaborations.",
+    "projectSlugs": [],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press"
+    ]
+  },
+  {
+    "id": "person-06",
+    "slug": "ruth-negga",
+    "name": "Ruth Negga",
+    "profession": "Actor",
+    "relationshipStatus": "current",
+    "order": 6,
+    "heroImage": "images/people/ruth-negga/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "summary": "Current awards-season collaborations including Golden Globes and Oscars beauty direction.",
+    "projectSlugs": [],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press"
+    ]
+  },
+  {
+    "id": "person-07",
+    "slug": "rosamund-pike",
+    "name": "Rosamund Pike",
+    "profession": "Actor",
+    "relationshipStatus": "current",
+    "order": 7,
+    "heroImage": "images/people/rosamund-pike/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "summary": "Current client with documented Oscars and Golden Globes red-carpet beauty.",
+    "projectSlugs": [],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press"
+    ]
+  },
+  {
+    "id": "person-08",
+    "slug": "natalie-portman",
+    "name": "Natalie Portman",
+    "profession": "Actor",
+    "relationshipStatus": "current",
+    "order": 8,
+    "heroImage": "images/people/natalie-portman/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "summary": "Current client work including Dior Beauty–linked red-carpet appearances.",
+    "projectSlugs": [],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press"
+    ]
+  },
+  {
+    "id": "person-09",
+    "slug": "lea-michele",
+    "name": "Lea Michele",
+    "profession": "Actor / Singer",
+    "relationshipStatus": "archive",
+    "order": 9,
+    "heroImage": "images/people/lea-michele/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "summary": "Archive collaboration documented across Emmys, Met Gala and SAG Awards beauty.",
+    "projectSlugs": [],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-press"
+    ]
+  },
+  {
+    "id": "person-10",
+    "slug": "britney-spears",
+    "name": "Britney Spears",
+    "profession": "Singer",
+    "relationshipStatus": "archive",
+    "order": 10,
+    "heroImage": "images/people/britney-spears/hero.jpg",
+    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
+    "summary": "Archive music-industry work including credited music videos Slumber Party and Make Me.",
+    "projectSlugs": [
+      "motion-britney-slumber-party",
+      "motion-britney-make-me"
+    ],
+    "sourceUrls": [
+      "https://www.forwardartists.com/makeup/melanie-inglessis-motion"
+    ]
+  }
+]
