@@ -16,6 +16,8 @@ with open(DATA / "projects.json", encoding="utf-8") as f:
     PROJECTS = sorted(json.load(f), key=lambda p: p.get("order", 999))
 with open(DATA / "people.json", encoding="utf-8") as f:
     PEOPLE = sorted(json.load(f), key=lambda p: p.get("order", 999))
+NEWS_PATH = DATA / "news.json"
+NEWS = json.loads(NEWS_PATH.read_text(encoding="utf-8")) if NEWS_PATH.exists() else []
 
 PROJECTS_BY_SLUG = {p["slug"]: p for p in PROJECTS}
 PEOPLE_BY_SLUG = {p["slug"]: p for p in PEOPLE}
@@ -75,6 +77,7 @@ def nav(from_dir: Path, current: str) -> str:
         ("Home", "index.html", "home"),
         ("Work", "work.html", "work"),
         ("People", "people/index.html", "people"),
+        ("News", "news.html", "news"),
         ("About", "about.html", "about"),
         ("Contact", "contact.html", "contact"),
     ]
@@ -201,15 +204,41 @@ def build_home():
   </div>
 </a>
 """)
-    hero_slug = SITE["homepageProjectSlugs"][0]
-    hero = PROJECTS_BY_SLUG[hero_slug]
+    carousel_slugs = SITE.get("heroCarouselSlugs") or SITE["homepageProjectSlugs"][:5]
+    slides = []
+    dots = []
+    for i, slug in enumerate(carousel_slugs):
+        p = PROJECTS_BY_SLUG[slug]
+        media = media_for(OUT, p.get("heroImage"), p.get("alt") or p["title"], p["title"])
+        active = " is-active" if i == 0 else ""
+        caption = " · ".join(
+            x for x in [p.get("talent"), p.get("publication") or p.get("brand"), p.get("year")] if x
+        )
+        slides.append(
+            f'<div class="hero-carousel__slide{active}" data-slide="{i}">'
+            f'<a class="hero-carousel__media" href="work/{p["slug"]}.html">{media}'
+            f'<span class="hero-carousel__caption"><strong>{p["title"]}</strong>{caption}</span></a></div>'
+        )
+        dots.append(
+            f'<button type="button" class="hero-carousel__dot{active}" data-go="{i}" aria-label="Slide {i+1}"></button>'
+        )
+    hero = PROJECTS_BY_SLUG[carousel_slugs[0]]
     body = f"""
-<section class="hero-identity">
-  <div class="hero-identity__bg">{media_for(OUT, hero.get('heroImage'), SITE['name'], SITE['name'])}</div>
-  <h1 class="hero-identity__name reveal">{SITE['name']}</h1>
-  <p class="hero-identity__role reveal">{SITE['role']}</p>
-  <p class="hero-identity__place reveal">{SITE['location']}</p>
-  <p class="hero-identity__intro reveal">{SITE['tagline']}</p>
+<section class="hero-identity hero-identity--carousel">
+  <div class="hero-carousel" data-hero-carousel>
+    <div class="hero-carousel__track">{''.join(slides)}</div>
+    <div class="hero-carousel__controls">
+      <button type="button" class="hero-carousel__nav" data-hero-prev aria-label="Previous">←</button>
+      <div class="hero-carousel__dots">{''.join(dots)}</div>
+      <button type="button" class="hero-carousel__nav" data-hero-next aria-label="Next">→</button>
+    </div>
+  </div>
+  <div class="hero-identity__copy">
+    <h1 class="hero-identity__name reveal">{SITE['name']}</h1>
+    <p class="hero-identity__role reveal">{SITE['role']}</p>
+    <p class="hero-identity__place reveal">{SITE['location']}</p>
+    <p class="hero-identity__intro reveal">{SITE['tagline']}</p>
+  </div>
 </section>
 <section class="project-stack" id="work">
   {''.join(tiles)}
@@ -254,7 +283,6 @@ def build_work():
 def build_project_pages():
     work_dir = OUT / "work"
     work_dir.mkdir(exist_ok=True)
-    # clean old generated
     for old in work_dir.glob("*.html"):
         old.unlink()
     for p in PROJECTS:
@@ -263,22 +291,43 @@ def build_project_pages():
         if p.get("talent"):
             meta_bits.append(f"<div><span>Talent</span>{p['talent']}</div>")
         if p.get("year"):
-            meta_bits.append(f"<div><span>Year</span>{p['year']}</div>")
+            year = p["year"]
+            if p.get("month"):
+                year = f"{p['month']} {year}"
+            meta_bits.append(f"<div><span>Year</span>{year}</div>")
         if p.get("categories"):
             meta_bits.append(f"<div><span>Category</span>{', '.join(p['categories'])}</div>")
         if p.get("publication") or p.get("brand"):
             meta_bits.append(
                 f"<div><span>Publication</span>{p.get('publication') or p.get('brand')}</div>"
             )
+        if p.get("location"):
+            meta_bits.append(f"<div><span>Location</span>{p['location']}</div>")
+
+        summary = ""
+        if p.get("summary"):
+            summary = f'<section class="detail-copy"><h2>Overview</h2><p>{p["summary"]}</p></section>'
+        beauty = ""
+        if p.get("beautyNotes"):
+            beauty = f'<section class="detail-copy"><h2>Beauty direction</h2><p>{p["beautyNotes"]}</p></section>'
+
         credits = ""
         if p.get("credits"):
             rows = "".join(
                 f"<div><dt>{k}</dt><dd>{v}</dd></div>" for k, v in p["credits"].items() if v
             )
             credits = f'<section class="credits"><h2>Credits</h2><dl>{rows}</dl></section>'
-        source = ""
+
+        links = []
         if p.get("sourceUrl"):
-            source = f'<a class="source-link" href="{p["sourceUrl"]}" target="_blank" rel="noopener">Source / context</a>'
+            links.append(
+                f'<a class="source-link" href="{p["sourceUrl"]}" target="_blank" rel="noopener">Primary source</a>'
+            )
+        for link in p.get("relatedLinks") or []:
+            if link.get("url") and link.get("label"):
+                links.append(
+                    f'<a class="source-link" href="{link["url"]}" target="_blank" rel="noopener">{link["label"]}</a>'
+                )
         people_links = []
         for slug in p.get("peopleSlugs") or []:
             person = PEOPLE_BY_SLUG.get(slug)
@@ -286,9 +335,13 @@ def build_project_pages():
                 people_links.append(
                     f'<a class="source-link" href="{rel(work_dir, f"people/{slug}.html")}">{person["name"]}</a>'
                 )
-        people_html = ""
-        if people_links:
-            people_html = f'<div style="display:flex;flex-wrap:wrap;gap:1rem">{"".join(people_links)}</div>'
+        links_html = ""
+        if links or people_links:
+            links_html = (
+                '<section class="detail-links"><h2>Related</h2>'
+                f'<div class="detail-links__row">{"".join(people_links + links)}</div></section>'
+            )
+
         body = f"""
 <section class="detail-hero">
   <div class="detail-hero__media">{media_for(work_dir, p.get('heroImage'), p.get('alt') or p['title'], p['title'])}</div>
@@ -298,15 +351,16 @@ def build_project_pages():
   </div>
 </section>
 <div class="detail-body">
+  {summary}
+  {beauty}
   {credits}
-  {people_html}
-  {source}
+  {links_html}
 </div>
 """
         out.write_text(
             shell(
                 f"{p['title']} | {SITE['name']}",
-                p.get("alt") or f"{p['title']} — makeup by {SITE['name']}",
+                p.get("summary") or p.get("alt") or f"{p['title']} — makeup by {SITE['name']}",
                 work_dir,
                 "work",
                 body,
@@ -314,6 +368,63 @@ def build_project_pages():
             ),
             encoding="utf-8",
         )
+
+
+def build_news():
+    out = OUT / "news.html"
+    items = []
+    for n in NEWS:
+        project = PROJECTS_BY_SLUG.get(n.get("projectSlug") or "")
+        img_path = project.get("heroImage") if project else None
+        media = media_for(OUT, img_path, n["title"], n["title"])
+        project_link = (
+            f'<a class="source-link" href="work/{project["slug"]}.html">View project</a>'
+            if project
+            else ""
+        )
+        source = (
+            f'<a class="source-link" href="{n["sourceUrl"]}" target="_blank" rel="noopener">Source</a>'
+            if n.get("sourceUrl")
+            else ""
+        )
+        items.append(
+            f"""
+<article class="news-card reveal">
+  <div class="news-card__media">{media}</div>
+  <div class="news-card__body">
+    <p class="news-card__meta">{n.get('date','')} · {n.get('category','')}</p>
+    <h2 class="news-card__title">{n['title']}</h2>
+    <p class="news-card__summary">{n.get('summary','')}</p>
+    <div class="detail-links__row">{project_link}{source}</div>
+  </div>
+</article>
+"""
+        )
+    body = f"""
+<header class="page-header">
+  <h1>News</h1>
+  <p>Recent work & press · {len(NEWS)} updates</p>
+</header>
+<section class="news-feed">
+  {''.join(items)}
+</section>
+"""
+    og_image = None
+    if NEWS:
+        first_project = PROJECTS_BY_SLUG.get(NEWS[0].get("projectSlug") or "")
+        if first_project:
+            og_image = first_project.get("heroImage")
+    out.write_text(
+        shell(
+            f"News | {SITE['name']}",
+            f"Recent work and press for {SITE['name']}",
+            OUT,
+            "news",
+            body,
+            og_image,
+        ),
+        encoding="utf-8",
+    )
 
 
 def build_people_index():
@@ -449,9 +560,10 @@ def main():
     build_project_pages()
     build_people_index()
     build_people_pages()
+    build_news()
     build_about()
     build_contact()
-    print(f"Built {len(PROJECTS)} projects, {len(PEOPLE)} people")
+    print(f"Built {len(PROJECTS)} projects, {len(PEOPLE)} people, {len(NEWS)} news")
 
 
 if __name__ == "__main__":

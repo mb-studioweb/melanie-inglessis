@@ -1,0 +1,92 @@
+[
+  {
+    "id": "n1",
+    "slug": "esquire-us-2026",
+    "date": "2026-08",
+    "title": "Jenna Ortega for Esquire U.S.",
+    "summary": "Newest indexed editorial collaboration — photography by Chantal Anderson, makeup by Mélanie Inglessis.",
+    "projectSlug": "esquire-us-jenna-ortega-2026",
+    "sourceUrl": "https://models.com/work/esquire-us-jenna-ortega-wont-stop-taking-risks-no-matter-how-big-wednesday-gets",
+    "category": "Editorial"
+  },
+  {
+    "id": "n2",
+    "slug": "sundance-2026",
+    "date": "2026-01",
+    "title": "Sundance — The Gallerist",
+    "summary": "Vogue covers Jenna Ortega’s dewy, skin-focused Sundance look with Mélanie Inglessis.",
+    "projectSlug": "sundance-the-gallerist-2026",
+    "sourceUrl": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n3",
+    "slug": "actor-awards-2026",
+    "date": "2026-02",
+    "title": "2026 Actor Awards",
+    "summary": "Allure reports on Jenna Ortega’s Actor Awards beauty with Mélanie Inglessis using Dior Beauty.",
+    "projectSlug": "actor-awards-2026",
+    "sourceUrl": "https://www.allure.com/story/jenna-ortega-actor-awards-dark-brows",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n4",
+    "slug": "eye-makeup-trends-2026",
+    "date": "2026-01",
+    "title": "Vogue: 2026 eye-makeup trends",
+    "summary": "Vogue quotes Mélanie Inglessis on the return of alternative / goth-inspired eye makeup — positioning her as a current beauty authority, not only a celebrity technician.",
+    "projectSlug": null,
+    "sourceUrl": "https://www.vogue.com/article/eye-makeup-trends-2026",
+    "category": "Press"
+  },
+  {
+    "id": "n5",
+    "slug": "vogue-mexico-2025",
+    "date": "2025-09",
+    "title": "Vogue Mexico cover — Un Espíritu Libre",
+    "summary": "Jenna Ortega covers Vogue Mexico September 2025, photographed by Paola Kudacki with makeup by Mélanie Inglessis.",
+    "projectSlug": "vogue-mexico-jenna-ortega-2025",
+    "sourceUrl": "https://www.vogue.mx/articulo/jenna-ortega-portada-vogue-septiembre-2025",
+    "category": "Cover"
+  },
+  {
+    "id": "n6",
+    "slug": "wednesday-s2-premiere-2025",
+    "date": "2025-07",
+    "title": "Wednesday S2 world premiere, London",
+    "summary": "Bleached brows, sculpted cheekbones, monochromatic skin and a dark lip — beauty direction detailed by Inglessis in Vogue UK.",
+    "projectSlug": "wednesday-s2-premiere-2025",
+    "sourceUrl": "https://www.vogue.co.uk/article/jenna-ortega-glam-wednesday-season-2",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n7",
+    "slug": "met-gala-2025",
+    "date": "2025-05",
+    "title": "Met Gala 2025 — Balmain rulers",
+    "summary": "Cool-toned Dior Beauty glam for Jenna Ortega’s Olivier Rousteing ruler gown on the Met steps.",
+    "projectSlug": "met-gala-jenna-ortega-2025",
+    "sourceUrl": "https://www.vogue.com/article/jenna-ortega-metal-ruler-dress-2025-met-gala",
+    "category": "Red carpet"
+  },
+  {
+    "id": "n8",
+    "slug": "wwd-weekend-2025",
+    "date": "2025-05",
+    "title": "Ana de Armas covers WWD Weekend",
+    "summary": "May 2025 cover with photography by Matthew Sprout — recent work beyond the Ortega cycle.",
+    "projectSlug": "wwd-weekend-ana-de-armas-2025",
+    "sourceUrl": "https://models.com/work/wwd-wwd-weekend-may-2025-cover",
+    "category": "Cover"
+  },
+  {
+    "id": "n9",
+    "slug": "24-goth-hours-2025",
+    "date": "2025-08",
+    "title": "24 Goth Hours — Vogue",
+    "summary": "A multi-look Vogue story that explicitly discusses beauty direction across a full day with Jenna Ortega.",
+    "projectSlug": "vogue-24-goth-hours-2025",
+    "sourceUrl": "https://www.vogue.com/article/24-goth-hours-with-jenna-ortega",
+    "category": "Editorial"
+  }
+]

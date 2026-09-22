@@ -7,7 +7,7 @@
     });
   }
 
-  document.querySelectorAll('.site-menu a[href]').forEach((a) => {
+  document.querySelectorAll(".site-menu a[href]").forEach((a) => {
     a.addEventListener("click", () => document.body.classList.remove("nav-open"));
   });
 
@@ -44,5 +44,31 @@
       });
       if (countEl) countEl.textContent = String(visible);
     });
+  }
+
+  const carousel = document.querySelector("[data-hero-carousel]");
+  if (carousel) {
+    const slides = [...carousel.querySelectorAll(".hero-carousel__slide")];
+    const dots = [...carousel.querySelectorAll(".hero-carousel__dot")];
+    let index = Math.max(0, slides.findIndex((s) => s.classList.contains("is-active")));
+    let timer;
+
+    const go = (next) => {
+      index = (next + slides.length) % slides.length;
+      slides.forEach((s, i) => s.classList.toggle("is-active", i === index));
+      dots.forEach((d, i) => d.classList.toggle("is-active", i === index));
+    };
+    const stop = () => { if (timer) clearInterval(timer); };
+    const start = () => {
+      stop();
+      timer = setInterval(() => go(index + 1), 5500);
+    };
+
+    carousel.querySelector("[data-hero-prev]")?.addEventListener("click", () => { go(index - 1); start(); });
+    carousel.querySelector("[data-hero-next]")?.addEventListener("click", () => { go(index + 1); start(); });
+    dots.forEach((dot) => dot.addEventListener("click", () => { go(Number(dot.dataset.go)); start(); }));
+    carousel.addEventListener("mouseenter", stop);
+    carousel.addEventListener("mouseleave", start);
+    start();
   }
 })();

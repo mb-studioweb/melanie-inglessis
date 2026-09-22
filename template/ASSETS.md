@@ -33,7 +33,7 @@ Métadonnées techniques : `template/images/SOURCES.json`
 | `images/projects/the-cut-jenna-ortega-2025/hero.jpg` | The Cut | [Models.com](https://models.com/work/the-cut-jenna-ortega-knows-best-1) |
 | `images/projects/wwd-weekend-ana-de-armas-2025/hero.jpg` | WWD Weekend | [Models.com](https://models.com/work/wwd-wwd-weekend-may-2025-cover) |
 | `images/projects/wednesday-s2-premiere-2025/hero.jpg` | Wednesday S2 premiere | [Vogue UK](https://www.vogue.co.uk/article/jenna-ortega-glam-wednesday-season-2) |
-| `images/projects/met-gala-jenna-ortega-2025/hero.jpg` | Met Gala 2025 | [Vogue France](https://www.vogue.fr/article/makeup-artists-looks-beaute-met-gala-2025) |
+| `images/projects/met-gala-jenna-ortega-2025/hero.jpg` | Met Gala 2025 | [Vogue US — ruler dress](https://www.vogue.com/article/jenna-ortega-metal-ruler-dress-2025-met-gala) *(corrigé : ancienne image Vogue France incorrecte)* |
 | `images/projects/academy-museum-gala-2025/hero.jpg` | Academy Museum Gala | [Vogue MX](https://www.vogue.mx/articulo/jenna-ortega-top-plateado-y-falda-cafe-academy-museum-gala-2025) |
 | `images/projects/instyle-imagemaker-2025/hero.jpg` | InStyle ImageMaker | [Vogue](https://www.vogue.com/article/jenna-ortega-pauses-goth-glam-for-something-more-soft) |
 | `images/projects/sundance-the-gallerist-2026/hero.jpg` | Sundance 2026 | [Vogue](https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance) |
