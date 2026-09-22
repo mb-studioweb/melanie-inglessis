@@ -2,7 +2,10 @@ name: Deploy to GitHub Pages
 
 on:
   push:
-    branches: [main, cursor/clone-framer-template-8872]
+    branches:
+      - main
+      - cursor/github-pages-8872
+      - cursor/clone-framer-template-8872
   workflow_dispatch:
 
 permissions:
