@@ -256,6 +256,9 @@ def build_home():
   {''.join(tiles)}
 </section>
 """
+    og_image = f"images/carousel/{carousel_slugs[0]}.jpg"
+    if not (OUT / og_image).exists():
+        og_image = first.get("heroImage")
     out.write_text(
         shell(
             f"{SITE['name']} | {SITE['role']}",
@@ -263,7 +266,7 @@ def build_home():
             OUT,
             "home",
             body,
-            f"images/carousel/{carousel_slugs[0]}.jpg",
+            og_image,
         ),
         encoding="utf-8",
     )
