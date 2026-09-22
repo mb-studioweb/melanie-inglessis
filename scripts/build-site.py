@@ -18,6 +18,8 @@ with open(DATA / "people.json", encoding="utf-8") as f:
     PEOPLE = sorted(json.load(f), key=lambda p: p.get("order", 999))
 NEWS_PATH = DATA / "news.json"
 NEWS = json.loads(NEWS_PATH.read_text(encoding="utf-8")) if NEWS_PATH.exists() else []
+BRANDS_PATH = DATA / "brands.json"
+BRANDS = json.loads(BRANDS_PATH.read_text(encoding="utf-8")) if BRANDS_PATH.exists() else []
 
 PROJECTS_BY_SLUG = {p["slug"]: p for p in PROJECTS}
 PEOPLE_BY_SLUG = {p["slug"]: p for p in PEOPLE}
@@ -116,9 +118,14 @@ def nav(from_dir: Path, current: str) -> str:
 def footer(from_dir: Path) -> str:
     return f"""
 <footer class="site-footer">
-  <div>© {SITE['name']}</div>
-  <div>{SITE['footerNote']}</div>
-  <a href="{rel(from_dir, 'contact.html')}">Contact</a>
+  <div class="site-footer__left">
+    <div>© {SITE['name']}</div>
+    <div>{SITE['footerNote']}</div>
+  </div>
+  <div class="site-footer__right">
+    <a href="{rel(from_dir, 'contact.html')}">Contact</a>
+    <a class="site-footer__powered" href="https://mb-studioweb.com" target="_blank" rel="noopener">Powered by MB-StudioWeb</a>
+  </div>
 </footer>
 <script src="{rel(from_dir, 'js/site.js')}" defer></script>
 """
@@ -230,6 +237,13 @@ def build_home():
         dots.append(
             f'<button type="button" class="hero-carousel__dot{active}" data-go="{i}" aria-label="Slide {i+1}"></button>'
         )
+    brand_items = "".join(
+        f'<div class="brands-strip__item" title="{b["name"]}">'
+        f'<img src="{b["logo"]}" alt="{b["name"]}" loading="lazy" width="160" height="40">'
+        f'<span class="brands-strip__label">{b["name"]}</span></div>'
+        for b in BRANDS
+    )
+    teaser = SITE.get("homeAboutTeaser") or SITE.get("tagline") or ""
     body = f"""
 <section class="hero-identity hero-identity--carousel">
   <div class="hero-carousel" data-hero-carousel>
@@ -251,6 +265,17 @@ def build_home():
       <button type="button" class="hero-carousel__nav" data-hero-next aria-label="Next">→</button>
     </div>
   </div>
+</section>
+<section class="brands-strip" aria-label="Selected brands and publications">
+  <p class="brands-strip__eyebrow">Selected brands &amp; publications</p>
+  <div class="brands-strip__track">{brand_items}</div>
+</section>
+<section class="home-about-teaser">
+  <div class="home-about-teaser__copy">
+    <p class="home-about-teaser__eyebrow">About</p>
+    <p class="home-about-teaser__text">{teaser}</p>
+  </div>
+  <a class="home-about-teaser__link" href="about.html">About <span aria-hidden="true">→</span></a>
 </section>
 <section class="project-stack" id="work">
   {''.join(tiles)}
@@ -511,17 +536,50 @@ def build_people_pages():
 def build_about():
     out = OUT / "about.html"
     points = ["Celebrity", "Fashion", "Editorial", "Advertising", "Film", "Red carpet"]
+    portrait = SITE.get("aboutPortrait") or ""
+    portrait_html = ""
+    if portrait and (OUT / portrait).exists():
+        src = asset(OUT, portrait)
+        portrait_html = f"""
+  <figure class="about-portrait">
+    <img src="{src}" alt="Mélanie Inglessis, makeup artist" loading="lazy" width="900" height="900">
+    <figcaption>Mélanie Inglessis · Makeup Artist</figcaption>
+  </figure>
+"""
+    extras = "".join(f"<p class=\"about-copy\">{p}</p>" for p in (SITE.get("aboutExtra") or []))
+    highlights = "".join(
+        f'<div class="about-highlight"><span>{h["label"]}</span><strong>{h["value"]}</strong></div>'
+        for h in (SITE.get("aboutHighlights") or [])
+    )
     body = f"""
 <div class="about-layout">
   <h1>About</h1>
-  <p class="about-copy">{SITE['about']}</p>
-  <div class="about-points">{''.join(f'<span>{p}</span>' for p in points)}</div>
-  <p class="about-copy" style="font-size:1rem;color:var(--muted)">Biography synthesized from the Forward Artists profile for this independent portfolio concept. Not an official endorsement.</p>
-  <a class="source-link" href="{SITE['links']['agencyPress']}" target="_blank" rel="noopener">Forward Artists profile</a>
+  <div class="about-grid">
+{portrait_html}
+    <div class="about-main">
+      <p class="about-copy">{SITE['about']}</p>
+      {extras}
+      <div class="about-points">{''.join(f'<span>{p}</span>' for p in points)}</div>
+      <div class="about-highlights">{highlights}</div>
+      <div class="about-links">
+        <a class="source-link" href="{SITE['links']['agencyPress']}" target="_blank" rel="noopener">Forward Artists profile</a>
+        <a class="source-link" href="{SITE['links']['instagram']}" target="_blank" rel="noopener">Instagram @melaniemakeup</a>
+        <a class="source-link" href="{SITE['links']['models']}" target="_blank" rel="noopener">Models.com</a>
+      </div>
+      <p class="about-note">Biography synthesized from the Forward Artists profile and verified press for this independent portfolio concept. Not an official endorsement.</p>
+    </div>
+  </div>
 </div>
 """
     out.write_text(
-        shell(f"About | {SITE['name']}", SITE["about"][:160], OUT, "about", body),
+        shell(
+            f"About | {SITE['name']}",
+            SITE["about"][:160],
+            OUT,
+            "about",
+            body,
+            portrait or None,
+        ),
         encoding="utf-8",
     )
 

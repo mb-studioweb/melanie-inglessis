@@ -1,0 +1,52 @@
+[
+  {
+    "slug": "dior",
+    "name": "Dior Beauty",
+    "logo": "images/brands/dior.png"
+  },
+  {
+    "slug": "esteelauder",
+    "name": "Estée Lauder",
+    "logo": "images/brands/esteelauder.png"
+  },
+  {
+    "slug": "armanibeauty",
+    "name": "Armani Beauty",
+    "logo": "images/brands/armanibeauty.png"
+  },
+  {
+    "slug": "vogue",
+    "name": "Vogue",
+    "logo": "images/brands/vogue.png"
+  },
+  {
+    "slug": "esquire",
+    "name": "Esquire",
+    "logo": "images/brands/esquire.png"
+  },
+  {
+    "slug": "netflix",
+    "name": "Netflix",
+    "logo": "images/brands/netflix.png"
+  },
+  {
+    "slug": "lamer",
+    "name": "La Mer",
+    "logo": "images/brands/lamer.png"
+  },
+  {
+    "slug": "loreal",
+    "name": "L'Oréal Paris",
+    "logo": "images/brands/loreal.png"
+  },
+  {
+    "slug": "wwd",
+    "name": "WWD",
+    "logo": "images/brands/wwd.png"
+  },
+  {
+    "slug": "thecut",
+    "name": "The Cut",
+    "logo": "images/brands/thecut.png"
+  }
+]
