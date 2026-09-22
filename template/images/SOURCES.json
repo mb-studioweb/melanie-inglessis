@@ -60,12 +60,6 @@
     "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
   },
   {
-    "path": "images/projects/sundance-the-gallerist-2026/hero.jpg",
-    "source_page": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
-    "image_url": "https://assets.vogue.com/photos/6975f28ae7fd748bdf70233c/16:9/w_1280,c_limit/2258037745",
-    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
-  },
-  {
     "path": "images/projects/actor-awards-2026/hero.jpg",
     "source_page": "https://www.allure.com/story/jenna-ortega-actor-awards-dark-brows",
     "image_url": "https://media.allure.com/photos/69a5a4bcb75c4fcf6f72fcb7/16:9/w_1280,c_limit/jenna%20ortega%20brows%20back.jpg",
@@ -423,5 +417,11 @@
     "path": "images/carousel/actor-awards-2026.jpg",
     "source_page": "https://www.allure.com/story/jenna-ortega-actor-awards-dark-brows",
     "note": "Carousel crop from Actor Awards hero."
+  },
+  {
+    "path": "images/projects/sundance-the-gallerist-2026/hero.jpg",
+    "source_page": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
+    "image_url": "https://assets.vogue.com/photos/6975f2b62c199c93681f1dfe/master/w_1280,c_limit/6975f2b62c199c93681f1dfe",
+    "note": "Corrected: previous og:image was Mia Goth. Now Jenna Ortega Sundance full portrait from same Vogue article."
   }
 ]
