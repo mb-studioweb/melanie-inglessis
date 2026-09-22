@@ -1,7 +1,7 @@
 [
   {
     "slug": "dior",
-    "name": "Dior Beauty",
+    "name": "Dior",
     "logo": "images/brands/dior.png"
   },
   {
@@ -11,7 +11,7 @@
   },
   {
     "slug": "armanibeauty",
-    "name": "Armani Beauty",
+    "name": "Armani",
     "logo": "images/brands/armanibeauty.png"
   },
   {
@@ -36,7 +36,7 @@
   },
   {
     "slug": "loreal",
-    "name": "L'Oréal Paris",
+    "name": "L'Oréal",
     "logo": "images/brands/loreal.png"
   },
   {
