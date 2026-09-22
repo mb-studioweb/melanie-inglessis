@@ -423,5 +423,10 @@
     "source_page": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
     "image_url": "https://assets.vogue.com/photos/6975f2b62c199c93681f1dfe/master/w_1280,c_limit/6975f2b62c199c93681f1dfe",
     "note": "Corrected: previous og:image was Mia Goth. Now Jenna Ortega Sundance full portrait from same Vogue article."
+  },
+  {
+    "path": "images/carousel/thr-cannes-natalie-portman-2015.jpg",
+    "source_page": "https://www.hollywoodreporter.com/",
+    "note": "Carousel crop from THR Cannes Natalie Portman cover hero; concept mockup only."
   }
 ]

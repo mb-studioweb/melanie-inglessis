@@ -28,38 +28,49 @@
   const filters = document.querySelector("[data-work-filters]");
   const grid = document.querySelector("[data-work-grid]");
   const countEl = document.querySelector("[data-work-count]");
+  const viewToggle = document.querySelector("[data-view-toggle]");
+
+  const applyFilter = (filter) => {
+    if (!grid) return;
+    let visible = 0;
+    grid.querySelectorAll(".card").forEach((card) => {
+      const cats = (card.dataset.categories || "").split(/\s+/).filter(Boolean);
+      const show = filter === "ALL" || cats.includes(filter);
+      card.classList.toggle("is-hidden", !show);
+      if (show) visible += 1;
+    });
+    if (countEl) countEl.textContent = String(visible);
+  };
+
   if (filters && grid) {
     filters.addEventListener("click", (e) => {
       const btn = e.target.closest("button[data-filter]");
       if (!btn) return;
       filters.querySelectorAll("button").forEach((b) => b.classList.remove("is-active"));
       btn.classList.add("is-active");
-      const filter = btn.dataset.filter;
-      let visible = 0;
-      grid.querySelectorAll(".card").forEach((card) => {
-        const cats = (card.dataset.categories || "").split(/\s+/);
-        const show = filter === "ALL" || cats.includes(filter);
-        card.classList.toggle("is-hidden", !show);
-        if (show) visible += 1;
-      });
-      if (countEl) countEl.textContent = String(visible);
+      applyFilter(btn.dataset.filter || "ALL");
     });
   }
 
-  const viewToggle = document.querySelector("[data-view-toggle]");
-  if (viewToggle && grid) {
-    const setView = (view) => {
-      const mode = view === "list" ? "list" : "grid";
-      grid.dataset.view = mode;
+  const setView = (view) => {
+    if (!grid) return;
+    const mode = view === "list" ? "list" : "grid";
+    grid.dataset.view = mode;
+    grid.classList.toggle("work-view--grid", mode === "grid");
+    grid.classList.toggle("work-view--list", mode === "list");
+    if (viewToggle) {
       viewToggle.querySelectorAll("button[data-view]").forEach((b) => {
         const on = b.dataset.view === mode;
         b.classList.toggle("is-active", on);
         b.setAttribute("aria-pressed", on ? "true" : "false");
       });
-      try {
-        localStorage.setItem("work-view", mode);
-      } catch (_) {}
-    };
+    }
+    try {
+      localStorage.setItem("work-view", mode);
+    } catch (_) {}
+  };
+
+  if (viewToggle && grid) {
     viewToggle.addEventListener("click", (e) => {
       const btn = e.target.closest("button[data-view]");
       if (!btn) return;

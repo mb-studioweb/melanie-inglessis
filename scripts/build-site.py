@@ -158,16 +158,23 @@ def shell(title: str, description: str, from_dir: Path, current: str, body: str,
 """
 
 
-def project_card(p: dict, from_dir: Path) -> str:
+def project_card(p: dict, from_dir: Path, index: int | None = None) -> str:
     href = rel(from_dir, f"work/{p['slug']}.html")
     cats = " ".join(p.get("categories") or [])
     year = p.get("year") or ""
+    talent = p.get("talent") or p.get("publication") or p.get("brand") or ""
     meta = " · ".join(x for x in [p.get("talent"), year, (p.get("categories") or [None])[0]] if x)
     media = media_for(from_dir, p.get("heroImage"), p.get("alt") or p["title"], p["title"])
+    idx = f'<span class="card__index">{index:02d}</span>' if index is not None else ""
+    year_html = f'<span class="card__year">{year}</span>' if year else '<span class="card__year"></span>'
+    client_html = f'<span class="card__client">{talent}</span>' if talent else '<span class="card__client"></span>'
     return f"""
 <a class="card reveal" href="{href}" data-categories="{cats}">
+  {idx}
   <div class="card__media">{media}</div>
   <h3 class="card__title">{p['title']}</h3>
+  {year_html}
+  {client_html}
   <p class="card__meta">{meta}</p>
 </a>
 """
@@ -308,7 +315,7 @@ def build_work():
         f'<button type="button" data-filter="{c}" class="{"is-active" if c == "ALL" else ""}">{c}</button>'
         for c in SITE["categories"]
     )
-    cards = "".join(project_card(p, OUT) for p in PROJECTS)
+    cards = "".join(project_card(p, OUT, index=i + 1) for i, p in enumerate(PROJECTS))
     body = f"""
 <header class="page-header page-header--work">
   <div>
@@ -321,7 +328,7 @@ def build_work():
   </div>
 </header>
 <div class="filters" data-work-filters>{filters}</div>
-<section class="work-grid" data-work-grid data-view="grid">
+<section class="work-view work-view--grid" data-work-grid data-view="grid">
   {cards}
 </section>
 """
