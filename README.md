@@ -2,7 +2,6 @@
 
 Miroir statique de [untitledfilm.framer.website](https://untitledfilm.framer.website), sans le bouton **Buy Template** ni le badge **Made in Framer**.
 
-<<<<<<< HEAD
 ## GitHub Pages
 
 URL : **https://mb-studioweb.github.io/melanie-inglessis/**
@@ -15,8 +14,6 @@ La branche `gh-pages` contient déjà le site. **Activation (une fois)** :
 
 Ensuite, chaque push sur `main` met à jour `gh-pages` via Actions.
 
-=======
->>>>>>> origin/main
 ## Aperçu local
 
 ```bash
