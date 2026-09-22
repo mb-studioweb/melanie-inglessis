@@ -48,27 +48,62 @@
 
   const carousel = document.querySelector("[data-hero-carousel]");
   if (carousel) {
+    const root = carousel.closest(".hero-identity--carousel") || document;
     const slides = [...carousel.querySelectorAll(".hero-carousel__slide")];
-    const dots = [...carousel.querySelectorAll(".hero-carousel__dot")];
+    const dots = [...root.querySelectorAll(".hero-carousel__dot")];
+    const titleEl = root.querySelector("[data-hero-title]");
+    const metaEl = root.querySelector("[data-hero-meta]");
+    const linkEl = root.querySelector("[data-hero-link]");
+    const prevBtn = root.querySelector("[data-hero-prev]");
+    const nextBtn = root.querySelector("[data-hero-next]");
     let index = Math.max(0, slides.findIndex((s) => s.classList.contains("is-active")));
     let timer;
 
-    const go = (next) => {
-      index = (next + slides.length) % slides.length;
-      slides.forEach((s, i) => s.classList.toggle("is-active", i === index));
-      dots.forEach((d, i) => d.classList.toggle("is-active", i === index));
-    };
-    const stop = () => { if (timer) clearInterval(timer); };
-    const start = () => {
-      stop();
-      timer = setInterval(() => go(index + 1), 5500);
+    const syncText = (slide) => {
+      if (!slide) return;
+      if (titleEl) titleEl.textContent = slide.dataset.title || "";
+      if (metaEl) metaEl.textContent = slide.dataset.meta || "";
+      if (linkEl && slide.dataset.href) linkEl.setAttribute("href", slide.dataset.href);
     };
 
-    carousel.querySelector("[data-hero-prev]")?.addEventListener("click", () => { go(index - 1); start(); });
-    carousel.querySelector("[data-hero-next]")?.addEventListener("click", () => { go(index + 1); start(); });
-    dots.forEach((dot) => dot.addEventListener("click", () => { go(Number(dot.dataset.go)); start(); }));
-    carousel.addEventListener("mouseenter", stop);
-    carousel.addEventListener("mouseleave", start);
+    const go = (next) => {
+      if (!slides.length) return;
+      index = ((next % slides.length) + slides.length) % slides.length;
+      slides.forEach((s, i) => s.classList.toggle("is-active", i === index));
+      dots.forEach((d, i) => d.classList.toggle("is-active", i === index));
+      syncText(slides[index]);
+    };
+
+    const stop = () => {
+      if (timer) clearInterval(timer);
+      timer = null;
+    };
+    const start = () => {
+      stop();
+      if (slides.length > 1) timer = setInterval(() => go(index + 1), 5000);
+    };
+
+    prevBtn?.addEventListener("click", (e) => {
+      e.preventDefault();
+      go(index - 1);
+      start();
+    });
+    nextBtn?.addEventListener("click", (e) => {
+      e.preventDefault();
+      go(index + 1);
+      start();
+    });
+    dots.forEach((dot) => {
+      dot.addEventListener("click", (e) => {
+        e.preventDefault();
+        go(Number(dot.dataset.go) || 0);
+        start();
+      });
+    });
+
+    root.addEventListener("mouseenter", stop);
+    root.addEventListener("mouseleave", start);
+    syncText(slides[index]);
     start();
   }
 })();
