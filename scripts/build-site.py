@@ -237,10 +237,10 @@ def build_home():
         dots.append(
             f'<button type="button" class="hero-carousel__dot{active}" data-go="{i}" aria-label="Slide {i+1}"></button>'
         )
-    brand_items = "".join(
-        f'<div class="brands-strip__item" title="{b["name"]}">'
-        f'<img src="{b["logo"]}" alt="{b["name"]}" loading="lazy" width="160" height="40">'
-        f'<span class="brands-strip__label">{b["name"]}</span></div>'
+    brand_group = "".join(
+        f'<div class="brands-marquee__item" title="{b["name"]}">'
+        f'<img src="{b["logo"]}" alt="{b["name"]}" loading="eager" decoding="async" height="40">'
+        f'</div>'
         for b in BRANDS
     )
     teaser = SITE.get("homeAboutTeaser") or SITE.get("tagline") or ""
@@ -266,9 +266,14 @@ def build_home():
     </div>
   </div>
 </section>
-<section class="brands-strip" aria-label="Selected brands and publications">
-  <p class="brands-strip__eyebrow">Selected brands &amp; publications</p>
-  <div class="brands-strip__track">{brand_items}</div>
+<section class="brands-marquee" aria-label="Selected brands and publications">
+  <p class="brands-marquee__eyebrow">Selected brands &amp; publications</p>
+  <div class="brands-marquee__viewport" data-brands-marquee>
+    <div class="brands-marquee__track">
+      <div class="brands-marquee__group">{brand_group}</div>
+      <div class="brands-marquee__group" aria-hidden="true">{brand_group}</div>
+    </div>
+  </div>
 </section>
 <section class="home-about-teaser">
   <div class="home-about-teaser__copy">
