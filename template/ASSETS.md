@@ -1,0 +1,73 @@
+# Image assets TODO
+All current hero images are **cinematic concept placeholders** generated for layout/QA.
+Replace with licensed editorial assets before any public launch. Do not hotlink magazine CDNs.
+
+## Projects
+- `images/projects/esquire-us-jenna-ortega-2026/hero.jpg` — **Esquire U.S.** (Jenna Ortega)
+  - Source/reference: https://models.com/work/esquire-us-jenna-ortega-wont-stop-taking-risks-no-matter-how-big-wednesday-gets
+- `images/projects/vogue-mexico-jenna-ortega-2025/hero.jpg` — **Un Espíritu Libre** (Jenna Ortega)
+  - Source/reference: https://models.com/work/vogue-mexico-un-espiritu-libre
+- `images/projects/vogue-24-goth-hours-2025/hero.jpg` — **24 Goth Hours** (Jenna Ortega)
+  - Source/reference: https://www.vogue.com/article/24-goth-hours-with-jenna-ortega
+- `images/projects/netflix-wednesday-s2-2025/hero.jpg` — **Netflix × Wednesday S2** (Jenna Ortega)
+  - Source/reference: https://models.com/work/netflix-netflix-x-wednesday
+- `images/projects/the-cut-jenna-ortega-2025/hero.jpg` — **Jenna Ortega Knows Best** (Jenna Ortega)
+  - Source/reference: https://models.com/work/the-cut-jenna-ortega-knows-best-1
+- `images/projects/wwd-weekend-ana-de-armas-2025/hero.jpg` — **WWD Weekend** (Ana de Armas)
+  - Source/reference: https://models.com/work/wwd-wwd-weekend-may-2025-cover
+- `images/projects/wednesday-s2-premiere-2025/hero.jpg` — **Wednesday S2 World Premiere** (Jenna Ortega)
+  - Source/reference: https://www.vogue.co.uk/article/jenna-ortega-glam-wednesday-season-2
+- `images/projects/met-gala-jenna-ortega-2025/hero.jpg` — **Met Gala 2025** (Jenna Ortega)
+  - Source/reference: https://www.vogue.fr/article/makeup-artists-looks-beaute-met-gala-2025
+- `images/projects/academy-museum-gala-2025/hero.jpg` — **Academy Museum Gala 2025** (Jenna Ortega)
+  - Source/reference: https://www.vogue.mx/articulo/jenna-ortega-top-plateado-y-falda-cafe-academy-museum-gala-2025
+- `images/projects/instyle-imagemaker-2025/hero.jpg` — **InStyle ImageMaker Awards 2025** (Jenna Ortega)
+  - Source/reference: https://www.vogue.com/article/jenna-ortega-pauses-goth-glam-for-something-more-soft
+- `images/projects/sundance-the-gallerist-2026/hero.jpg` — **Sundance — The Gallerist** (Jenna Ortega)
+  - Source/reference: https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance
+- `images/projects/actor-awards-2026/hero.jpg` — **2026 Actor Awards** (Jenna Ortega)
+  - Source/reference: https://www.allure.com/story/jenna-ortega-actor-awards-dark-brows
+- `images/projects/no-time-to-die-premiere-2021/hero.jpg` — **No Time to Die Premiere** (Ana de Armas)
+  - Source/reference: https://www.vogue.com/article/ana-de-armas-bond-premiere-getting-ready
+- `images/projects/blonde-premiere-2022/hero.jpg` — **Blonde Premiere** (Ana de Armas)
+  - Source/reference: https://www.vogue.com/slideshow/ana-de-armas-blonde-premiere-marilyn-monroe
+- `images/projects/golden-globes-ana-de-armas-2023/hero.jpg` — **Golden Globes** (Ana de Armas)
+  - Source/reference: https://www.vogue.com/slideshow/ana-de-armas-golden-globes-louis-vuitton-dress
+- `images/projects/motion-taste-jenna-ortega/hero.jpg` — **Taste** (Jenna Ortega)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+- `images/projects/motion-armani-luminous-silk/hero.jpg` — **Luminous Silk Foundation** (Adria Arjona and Madisin Ryan)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+- `images/projects/motion-doritos-dina-mita/hero.jpg` — **Doritos — Dina & Mita** (Jenna Ortega)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+- `images/projects/motion-only-natural-diamonds/hero.jpg` — **Only Natural Diamonds** (Ana de Armas)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+- `images/projects/motion-la-mer-ana-de-armas/hero.jpg` — **La Mer** (Ana de Armas)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+- `images/projects/motion-britney-slumber-party/hero.jpg` — **Slumber Party** (Britney Spears)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+- `images/projects/motion-britney-make-me/hero.jpg` — **Make Me** (Britney Spears)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+- `images/projects/motion-loreal-longoria-king/hero.jpg` — **L’Oréal Paris** (Eva Longoria and Aja Naomi King)
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
+
+## People
+- `images/people/jenna-ortega/hero.jpg` — **Jenna Ortega**
+  - Source/reference: https://models.com/work/vogue-mexico-un-espiritu-libre
+- `images/people/ana-de-armas/hero.jpg` — **Ana de Armas**
+  - Source/reference: https://models.com/work/wwd-wwd-weekend-may-2025-cover
+- `images/people/olivia-wilde/hero.jpg` — **Olivia Wilde**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-press
+- `images/people/kate-hudson/hero.jpg` — **Kate Hudson**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-press
+- `images/people/karlie-kloss/hero.jpg` — **Karlie Kloss**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-press
+- `images/people/ruth-negga/hero.jpg` — **Ruth Negga**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-press
+- `images/people/rosamund-pike/hero.jpg` — **Rosamund Pike**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-press
+- `images/people/natalie-portman/hero.jpg` — **Natalie Portman**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-press
+- `images/people/lea-michele/hero.jpg` — **Lea Michele**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-press
+- `images/people/britney-spears/hero.jpg` — **Britney Spears**
+  - Source/reference: https://www.forwardartists.com/makeup/melanie-inglessis-motion
