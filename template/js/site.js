@@ -58,6 +58,11 @@
     const nextBtn = root.querySelector("[data-hero-next]");
     let index = Math.max(0, slides.findIndex((s) => s.classList.contains("is-active")));
     let timer;
+    let pointerId = null;
+    let startX = 0;
+    let startY = 0;
+    let tracking = false;
+    let swiped = false;
 
     const syncText = (slide) => {
       if (!slide) return;
@@ -99,6 +104,55 @@
         go(Number(dot.dataset.go) || 0);
         start();
       });
+    });
+
+    const onPointerDown = (e) => {
+      if (e.target.closest("a, button")) return;
+      if (e.pointerType === "mouse" && e.button !== 0) return;
+      pointerId = e.pointerId;
+      startX = e.clientX;
+      startY = e.clientY;
+      tracking = true;
+      swiped = false;
+      root.classList.add("is-dragging");
+      stop();
+      try {
+        root.setPointerCapture(pointerId);
+      } catch (_) {}
+    };
+
+    const onPointerMove = (e) => {
+      if (!tracking || e.pointerId !== pointerId) return;
+      const dx = e.clientX - startX;
+      const dy = e.clientY - startY;
+      if (!swiped && Math.abs(dx) > 28 && Math.abs(dx) > Math.abs(dy) * 1.15) {
+        swiped = true;
+        go(dx < 0 ? index + 1 : index - 1);
+      }
+    };
+
+    const onPointerUp = (e) => {
+      if (e.pointerId !== pointerId) return;
+      tracking = false;
+      pointerId = null;
+      root.classList.remove("is-dragging");
+      start();
+    };
+
+    root.addEventListener("pointerdown", onPointerDown);
+    root.addEventListener("pointermove", onPointerMove);
+    root.addEventListener("pointerup", onPointerUp);
+    root.addEventListener("pointercancel", onPointerUp);
+    root.addEventListener("pointerleave", (e) => {
+      if (tracking && e.pointerType === "mouse") onPointerUp(e);
+    });
+
+    // Prevent accidental link navigation after a swipe
+    linkEl?.addEventListener("click", (e) => {
+      if (swiped) {
+        e.preventDefault();
+        swiped = false;
+      }
     });
 
     root.addEventListener("mouseenter", stop);

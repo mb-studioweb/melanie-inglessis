@@ -246,9 +246,9 @@ def build_home():
       </a>
     </div>
     <div class="hero-carousel__controls">
-      <button type="button" class="hero-carousel__nav" data-hero-prev aria-label="Previous">Prev</button>
+      <button type="button" class="hero-carousel__nav" data-hero-prev aria-label="Previous">←</button>
       <div class="hero-carousel__dots">{''.join(dots)}</div>
-      <button type="button" class="hero-carousel__nav" data-hero-next aria-label="Next">Next</button>
+      <button type="button" class="hero-carousel__nav" data-hero-next aria-label="Next">→</button>
     </div>
   </div>
 </section>
