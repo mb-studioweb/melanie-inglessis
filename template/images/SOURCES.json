@@ -96,12 +96,6 @@
     "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
   },
   {
-    "path": "images/people/ana-de-armas/hero.jpg",
-    "source_page": "https://models.com/work/wwd-wwd-weekend-may-2025-cover",
-    "image_url": "https://i.mdel.net/i/db/2025/6/2552619/2552619-800w.jpg",
-    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
-  },
-  {
     "path": "images/people/olivia-wilde/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Olivia_Wilde",
     "note": "Wikimedia Commons portrait — identity only, not a Mélanie makeup credit photo"
@@ -282,12 +276,6 @@
     "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
   },
   {
-    "path": "images/people/maisy-stella/hero.jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Maisy_Stella_in_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "source_page": "https://www.whowhatwear.com/fashion/celebrity/maisy-stella-critics-choice-awards",
-    "note": "Wikimedia identity reference for concept only."
-  },
-  {
     "path": "images/people/eva-longoria/hero.jpg",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Eva_Longoria_Cannes_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "source_page": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
@@ -319,11 +307,6 @@
     "note": "People hero distinct from project hero"
   },
   {
-    "path": "images/people/ana-de-armas/hero.jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/e/ef/Ana_de_Armas_2014.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "note": "People hero distinct from project hero"
-  },
-  {
     "path": "images/about/melanie-inglessis.jpg",
     "source_page": "https://www.thecut.com/article/jenna-ortega-makeup-artist-melanie-inglessis-inspired-by-subcultures.html",
     "image_url": "https://pyxis.nymag.com/v1/imgs/ce0/e38/04da720c1dc2951722da96ff8ae75eb704-forward-artists-Melanie-Inglessis.1x.rsocial.w1200.jpg",
@@ -335,20 +318,6 @@
     "source_page": "https://commons.wikimedia.org/wiki/File:Jenna%20Ortega%20at%202024%20Venice%20International%20Film%20Festival%20EDITED.jpg",
     "note": "People hero for jenna-ortega — verified filename contains person name; concept mockup only.",
     "commons_title": "Jenna Ortega at 2024 Venice International Film Festival EDITED.jpg"
-  },
-  {
-    "path": "images/people/ana-de-armas/hero.jpg",
-    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ana_de_Armas_%2854462813979%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Ana%20de%20Armas%20%2854462813979%29%20%28cropped%29.jpg",
-    "note": "People hero for ana-de-armas — verified filename contains person name; concept mockup only.",
-    "commons_title": "Ana de Armas (54462813979) (cropped).jpg"
-  },
-  {
-    "path": "images/people/maisy-stella/hero.jpg",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Maisy_Stella_at_TIFF_2025_-_01_%28cropped%29.jpg/1920px-Maisy_Stella_at_TIFF_2025_-_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Maisy%20Stella%20at%20TIFF%202025%20-%2001%20%28cropped%29.jpg",
-    "note": "People hero for maisy-stella — verified filename contains person name; concept mockup only.",
-    "commons_title": "Maisy Stella at TIFF 2025 - 01 (cropped).jpg"
   },
   {
     "path": "images/people/adria-arjona/hero.jpg",
@@ -375,12 +344,6 @@
     "note": "People hero leslie-bibb — Venice Film Festival recent sharp portrait; concept mockup only."
   },
   {
-    "path": "images/people/rosamund-pike/hero.jpg",
-    "source_page": "https://commons.wikimedia.org/wiki/File:MJK_10907_Rosamund_Pike_(Berlinale_2018)_(cropped).jpg",
-    "image_url": "https://commons.wikimedia.org/wiki/File:MJK_10907_Rosamund_Pike_(Berlinale_2018)_(cropped).jpg",
-    "note": "People hero rosamund-pike — Berlinale 2018 sharp portrait; concept mockup only."
-  },
-  {
     "path": "images/people/britney-spears/hero.jpg",
     "source_page": "https://commons.wikimedia.org/wiki/File:Britney_Spears_2013_(Straighten_Crop).jpg",
     "image_url": "https://commons.wikimedia.org/wiki/File:Britney_Spears_2013_(Straighten_Crop).jpg",
@@ -403,5 +366,23 @@
     "source_page": "https://commons.wikimedia.org/wiki/File%3ANatalie_Portman-69211_%28cropped%29.jpg",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Natalie_Portman-69211_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
     "note": "People hero natalie-portman — recent sharp Commons portrait; concept mockup only."
+  },
+  {
+    "path": "images/people/rosamund-pike/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MJK_10899_Rosamund_Pike_(Berlinale_2018).jpg",
+    "image_url": "https://commons.wikimedia.org/wiki/File:MJK_10899_Rosamund_Pike_(Berlinale_2018).jpg",
+    "note": "People hero — wider Berlinale 2018 for hero framing; concept mockup only."
+  },
+  {
+    "path": "images/people/maisy-stella/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Maisy_Stella_at_TIFF_2025_-_01_(croppedv2).jpg",
+    "image_url": "https://commons.wikimedia.org/wiki/File:Maisy_Stella_at_TIFF_2025_-_01_(croppedv2).jpg",
+    "note": "People hero — TIFF 2025 croppedv2 verified Maisy; concept mockup only."
+  },
+  {
+    "path": "images/people/ana-de-armas/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ana_de_Armas_at_the_2024_Toronto_International_Film_Festival_02.jpg",
+    "image_url": "https://commons.wikimedia.org/wiki/File:Ana_de_Armas_at_the_2024_Toronto_International_Film_Festival_02.jpg",
+    "note": "People hero — TIFF 2024 portrait; concept mockup only."
   }
 ]
