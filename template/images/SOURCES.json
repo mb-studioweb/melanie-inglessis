@@ -374,15 +374,15 @@
     "note": "People hero — wider Berlinale 2018 for hero framing; concept mockup only."
   },
   {
-    "path": "images/people/maisy-stella/hero.jpg",
-    "source_page": "https://commons.wikimedia.org/wiki/File:Maisy_Stella_at_TIFF_2025_-_01_(croppedv2).jpg",
-    "image_url": "https://commons.wikimedia.org/wiki/File:Maisy_Stella_at_TIFF_2025_-_01_(croppedv2).jpg",
-    "note": "People hero — TIFF 2025 croppedv2 verified Maisy; concept mockup only."
-  },
-  {
     "path": "images/people/ana-de-armas/hero.jpg",
     "source_page": "https://commons.wikimedia.org/wiki/File:Ana_de_Armas_at_the_2024_Toronto_International_Film_Festival_02.jpg",
     "image_url": "https://commons.wikimedia.org/wiki/File:Ana_de_Armas_at_the_2024_Toronto_International_Film_Festival_02.jpg",
     "note": "People hero — TIFF 2024 portrait; concept mockup only."
+  },
+  {
+    "path": "images/people/maisy-stella/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Maisy_Stella_at_TIFF_2025_-_01_(croppedv2).jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/9/95/Maisy_Stella_at_TIFF_2025_-_01_%28croppedv2%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "note": "People hero Maisy Stella TIFF 2025 Poetic License (Commons+Getty confirmed); concept mockup only."
   }
 ]
