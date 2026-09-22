@@ -19,13 +19,39 @@
   },
   "footerNote": "Independent portfolio concept. Imagery credited to respective creators/publications.",
   "nav": [
-    { "label": "Home", "href": "index.html" },
-    { "label": "Work", "href": "work.html" },
-    { "label": "People", "href": "people/index.html" },
-    { "label": "About", "href": "about.html" },
-    { "label": "Contact", "href": "contact.html" }
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "Work",
+      "href": "work.html"
+    },
+    {
+      "label": "People",
+      "href": "people/index.html"
+    },
+    {
+      "label": "News",
+      "href": "news.html"
+    },
+    {
+      "label": "About",
+      "href": "about.html"
+    },
+    {
+      "label": "Contact",
+      "href": "contact.html"
+    }
   ],
-  "categories": ["ALL", "EDITORIAL", "COVERS", "RED CARPET", "CAMPAIGNS", "MOTION"],
+  "categories": [
+    "ALL",
+    "EDITORIAL",
+    "COVERS",
+    "RED CARPET",
+    "CAMPAIGNS",
+    "MOTION"
+  ],
   "homepageProjectSlugs": [
     "esquire-us-jenna-ortega-2026",
     "vogue-mexico-jenna-ortega-2025",
@@ -35,5 +61,13 @@
     "netflix-wednesday-s2-2025",
     "wednesday-s2-premiere-2025",
     "no-time-to-die-premiere-2021"
+  ],
+  "heroCarouselSlugs": [
+    "esquire-us-jenna-ortega-2026",
+    "vogue-mexico-jenna-ortega-2025",
+    "wwd-weekend-ana-de-armas-2025",
+    "wednesday-s2-premiere-2025",
+    "met-gala-jenna-ortega-2025",
+    "vogue-24-goth-hours-2025"
   ]
 }

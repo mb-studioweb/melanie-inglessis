@@ -6,11 +6,15 @@
     "talent": "Jenna Ortega",
     "year": "2026",
     "month": "August",
-    "categories": ["EDITORIAL"],
+    "categories": [
+      "EDITORIAL"
+    ],
     "publication": "Esquire U.S.",
     "featured": true,
     "order": 1,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/esquire-us-jenna-ortega-2026/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -23,7 +27,8 @@
     },
     "sourceUrl": "https://models.com/work/esquire-us-jenna-ortega-wont-stop-taking-risks-no-matter-how-big-wednesday-gets",
     "imageSourceUrl": "https://models.com/work/esquire-us-jenna-ortega-wont-stop-taking-risks-no-matter-how-big-wednesday-gets",
-    "alt": "Jenna Ortega editorial for Esquire U.S., makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega editorial for Esquire U.S., makeup by Mélanie Inglessis",
+    "summary": "Newest indexed editorial for Jenna Ortega in Esquire U.S., photographed by Chantal Anderson with makeup by Mélanie Inglessis."
   },
   {
     "id": "p02",
@@ -32,11 +37,16 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "September",
-    "categories": ["EDITORIAL", "COVERS"],
+    "categories": [
+      "EDITORIAL",
+      "COVERS"
+    ],
     "publication": "Vogue Mexico",
     "featured": true,
     "order": 2,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/vogue-mexico-jenna-ortega-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -49,7 +59,8 @@
     },
     "sourceUrl": "https://www.vogue.mx/articulo/jenna-ortega-portada-vogue-septiembre-2025",
     "imageSourceUrl": "https://models.com/work/vogue-mexico-un-espiritu-libre",
-    "alt": "Jenna Ortega for Vogue Mexico cover, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega for Vogue Mexico cover, makeup by Mélanie Inglessis",
+    "summary": "Vogue Mexico September 2025 cover and editorial “Un Espíritu Libre,” photographed by Paola Kudacki — a hero-quality cover collaboration."
   },
   {
     "id": "p03",
@@ -58,11 +69,15 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "August",
-    "categories": ["EDITORIAL"],
+    "categories": [
+      "EDITORIAL"
+    ],
     "publication": "Vogue",
     "featured": true,
     "order": 3,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/vogue-24-goth-hours-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -75,7 +90,9 @@
     },
     "sourceUrl": "https://www.vogue.com/article/24-goth-hours-with-jenna-ortega",
     "imageSourceUrl": "https://www.vogue.com/article/24-goth-hours-with-jenna-ortega",
-    "alt": "Jenna Ortega in Vogue 24 Goth Hours editorial, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega in Vogue 24 Goth Hours editorial, makeup by Mélanie Inglessis",
+    "summary": "Vogue’s “24 Goth Hours with Jenna Ortega” follows a full day of looks; the story discusses beauty direction with multiple photographs.",
+    "beautyNotes": "Editorial beauty direction for a gothic-glam day-in-the-life story, makeup by Mélanie Inglessis."
   },
   {
     "id": "p04",
@@ -84,12 +101,16 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "July",
-    "categories": ["CAMPAIGNS"],
+    "categories": [
+      "CAMPAIGNS"
+    ],
     "publication": "Netflix",
     "brand": "Netflix",
     "featured": true,
     "order": 6,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/netflix-wednesday-s2-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -100,7 +121,8 @@
     },
     "sourceUrl": "https://models.com/work/netflix-netflix-x-wednesday",
     "imageSourceUrl": "https://models.com/work/netflix-netflix-x-wednesday",
-    "alt": "Netflix Wednesday S2 campaign with Jenna Ortega, makeup by Mélanie Inglessis"
+    "alt": "Netflix Wednesday S2 campaign with Jenna Ortega, makeup by Mélanie Inglessis",
+    "summary": "Netflix × Wednesday Season 2 campaign imagery photographed by Alice Moitie, bridging entertainment marketing and beauty."
   },
   {
     "id": "p05",
@@ -109,11 +131,16 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "April",
-    "categories": ["EDITORIAL", "COVERS"],
+    "categories": [
+      "EDITORIAL",
+      "COVERS"
+    ],
     "publication": "The Cut",
     "featured": true,
     "order": 5,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/the-cut-jenna-ortega-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -127,7 +154,8 @@
     },
     "sourceUrl": "https://models.com/work/the-cut-jenna-ortega-knows-best-1",
     "imageSourceUrl": "https://models.com/work/the-cut-jenna-ortega-knows-best-1",
-    "alt": "Jenna Ortega for The Cut cover, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega for The Cut cover, makeup by Mélanie Inglessis",
+    "summary": "The Cut cover story “Jenna Ortega Knows Best,” photographed by Coni Tarallo — fashion-forward editorial featuring houses including Alaïa, Prada and Schiaparelli."
   },
   {
     "id": "p06",
@@ -136,11 +164,15 @@
     "talent": "Ana de Armas",
     "year": "2025",
     "month": "May",
-    "categories": ["COVERS"],
+    "categories": [
+      "COVERS"
+    ],
     "publication": "WWD Weekend",
     "featured": true,
     "order": 4,
-    "peopleSlugs": ["ana-de-armas"],
+    "peopleSlugs": [
+      "ana-de-armas"
+    ],
     "heroImage": "images/projects/wwd-weekend-ana-de-armas-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -153,7 +185,8 @@
     },
     "sourceUrl": "https://models.com/work/wwd-wwd-weekend-may-2025-cover",
     "imageSourceUrl": "https://models.com/work/wwd-wwd-weekend-may-2025-cover",
-    "alt": "Ana de Armas for WWD Weekend cover, makeup by Mélanie Inglessis"
+    "alt": "Ana de Armas for WWD Weekend cover, makeup by Mélanie Inglessis",
+    "summary": "Ana de Armas covers WWD Weekend (May 2025), photographed by Matthew Sprout — a key non-Jenna cover that balances the recent portfolio."
   },
   {
     "id": "p07",
@@ -162,12 +195,16 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "July",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Vogue",
     "location": "London",
     "featured": true,
     "order": 7,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/wednesday-s2-premiere-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -177,7 +214,9 @@
     },
     "sourceUrl": "https://www.vogue.co.uk/article/jenna-ortega-glam-wednesday-season-2",
     "imageSourceUrl": "https://www.vogue.co.uk/article/jenna-ortega-glam-wednesday-season-2",
-    "alt": "Jenna Ortega at Wednesday S2 world premiere, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega at Wednesday S2 world premiere, makeup by Mélanie Inglessis",
+    "summary": "London world premiere of Wednesday Season 2. Vogue UK documented the beauty concept in detail.",
+    "beautyNotes": "Mélanie Inglessis aimed for balance between editorial and red carpet: bleached brows carried from another project, monochromatic skin (Barbara Sturm Glow Drops, Dior Forever Skin Foundation), intensely carved cheekbones (Laduora Lumeo), no blush, and a dark lip with Dior Rouge Contour #400. Hair by Cesar Deleon Ramirez."
   },
   {
     "id": "p08",
@@ -186,20 +225,37 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "May",
-    "categories": ["RED CARPET"],
-    "publication": "Vogue France",
+    "categories": [
+      "RED CARPET"
+    ],
+    "publication": "Vogue",
     "featured": false,
     "order": 9,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/met-gala-jenna-ortega-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
       "Makeup": "Mélanie Inglessis",
-      "Talent": "Jenna Ortega"
+      "Talent": "Jenna Ortega",
+      "Dress": "Custom Balmain by Olivier Rousteing"
     },
-    "sourceUrl": "https://www.vogue.fr/article/makeup-artists-looks-beaute-met-gala-2025",
-    "imageSourceUrl": "https://www.vogue.fr/article/makeup-artists-looks-beaute-met-gala-2025",
-    "alt": "Jenna Ortega Met Gala 2025 beauty look, makeup by Mélanie Inglessis"
+    "sourceUrl": "https://www.vogue.com/article/jenna-ortega-metal-ruler-dress-2025-met-gala",
+    "imageSourceUrl": "https://www.vogue.com/article/jenna-ortega-metal-ruler-dress-2025-met-gala",
+    "alt": "Jenna Ortega Met Gala 2025 beauty look, makeup by Mélanie Inglessis",
+    "summary": "Jenna Ortega attended the 2025 Met Gala in custom Balmain by Olivier Rousteing — a silver gown constructed from metal measuring rulers — with cool-toned eyes and a plum-lined lip.",
+    "beautyNotes": "Makeup by Mélanie Inglessis using Dior Beauty: sculpted smoky silver-gray eyes (Diorshow 5 Couleurs #669 Soft Cashmere), extended liner, volumizing mascara, luminous skin, and a defined brown-plum lip (Rouge Dior Contour #510 Wild Brown with Rouge Dior #300 Nude Style Velvet Finish).",
+    "relatedLinks": [
+      {
+        "label": "Vogue — metal ruler dress",
+        "url": "https://www.vogue.com/article/jenna-ortega-metal-ruler-dress-2025-met-gala"
+      },
+      {
+        "label": "Grazia — beauty notes",
+        "url": "https://graziamagazine.com/me/articles/met-gala-2025-the-best-beauty-looks-on-the-red-carpet/"
+      }
+    ]
   },
   {
     "id": "p09",
@@ -208,11 +264,15 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "October",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Vogue Mexico",
     "featured": false,
     "order": 10,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/academy-museum-gala-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -222,7 +282,8 @@
     },
     "sourceUrl": "https://www.vogue.mx/articulo/jenna-ortega-top-plateado-y-falda-cafe-academy-museum-gala-2025",
     "imageSourceUrl": "https://www.vogue.mx/articulo/jenna-ortega-top-plateado-y-falda-cafe-academy-museum-gala-2025",
-    "alt": "Jenna Ortega at Academy Museum Gala 2025, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega at Academy Museum Gala 2025, makeup by Mélanie Inglessis",
+    "summary": "Academy Museum Gala 2025 red-carpet appearance, documented by Vogue Mexico."
   },
   {
     "id": "p10",
@@ -231,11 +292,15 @@
     "talent": "Jenna Ortega",
     "year": "2025",
     "month": "October",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Vogue",
     "featured": false,
     "order": 11,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/instyle-imagemaker-2025/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -245,7 +310,8 @@
     },
     "sourceUrl": "https://www.vogue.com/article/jenna-ortega-pauses-goth-glam-for-something-more-soft",
     "imageSourceUrl": "https://www.vogue.com/article/jenna-ortega-pauses-goth-glam-for-something-more-soft",
-    "alt": "Jenna Ortega at InStyle ImageMaker Awards 2025, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega at InStyle ImageMaker Awards 2025, makeup by Mélanie Inglessis",
+    "summary": "InStyle ImageMaker Awards 2025 — a softer lilac/berry beauty direction contrasting Ortega’s sharper gothic looks."
   },
   {
     "id": "p11",
@@ -253,11 +319,15 @@
     "title": "Sundance — The Gallerist",
     "talent": "Jenna Ortega",
     "year": "2026",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Vogue",
     "featured": false,
     "order": 12,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/sundance-the-gallerist-2026/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -267,7 +337,9 @@
     },
     "sourceUrl": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
     "imageSourceUrl": "https://www.vogue.com/article/jenna-ortega-lightens-up-her-gothic-glam-for-sundance",
-    "alt": "Jenna Ortega at Sundance 2026 for The Gallerist, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega at Sundance 2026 for The Gallerist, makeup by Mélanie Inglessis",
+    "summary": "Sundance premiere look for The Gallerist. Vogue quotes Inglessis on a skin-focused, dewy direction that lightens the gothic glam.",
+    "beautyNotes": "Skin-focused, dewy direction discussed by Mélanie Inglessis in Vogue coverage."
   },
   {
     "id": "p12",
@@ -275,12 +347,16 @@
     "title": "2026 Actor Awards",
     "talent": "Jenna Ortega",
     "year": "2026",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Allure",
     "brand": "Dior Beauty",
     "featured": false,
     "order": 13,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/actor-awards-2026/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -289,7 +365,9 @@
     },
     "sourceUrl": "https://www.allure.com/story/jenna-ortega-actor-awards-dark-brows",
     "imageSourceUrl": "https://www.allure.com/story/jenna-ortega-actor-awards-dark-brows",
-    "alt": "Jenna Ortega at the 2026 Actor Awards, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega at the 2026 Actor Awards, makeup by Mélanie Inglessis",
+    "summary": "2026 Actor Awards red carpet; Allure coverage notes makeup by Mélanie Inglessis using Dior Beauty, including a darker brow direction.",
+    "beautyNotes": "Makeup by Mélanie Inglessis using Dior Beauty."
   },
   {
     "id": "p13",
@@ -297,11 +375,15 @@
     "title": "No Time to Die Premiere",
     "talent": "Ana de Armas",
     "year": "2021",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Vogue",
     "featured": true,
     "order": 8,
-    "peopleSlugs": ["ana-de-armas"],
+    "peopleSlugs": [
+      "ana-de-armas"
+    ],
     "heroImage": "images/projects/no-time-to-die-premiere-2021/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -310,7 +392,8 @@
     },
     "sourceUrl": "https://www.vogue.com/article/ana-de-armas-bond-premiere-getting-ready",
     "imageSourceUrl": "https://www.vogue.com/article/ana-de-armas-bond-premiere-getting-ready",
-    "alt": "Ana de Armas at No Time to Die premiere, makeup by Mélanie Inglessis"
+    "alt": "Ana de Armas at No Time to Die premiere, makeup by Mélanie Inglessis",
+    "summary": "Ana de Armas at the No Time to Die premiere. Vogue documented the full beauty preparation and products with Mélanie Inglessis."
   },
   {
     "id": "p14",
@@ -318,11 +401,15 @@
     "title": "Blonde Premiere",
     "talent": "Ana de Armas",
     "year": "2022",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Vogue",
     "featured": false,
     "order": 14,
-    "peopleSlugs": ["ana-de-armas"],
+    "peopleSlugs": [
+      "ana-de-armas"
+    ],
     "heroImage": "images/projects/blonde-premiere-2022/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -332,7 +419,8 @@
     },
     "sourceUrl": "https://www.vogue.com/slideshow/ana-de-armas-blonde-premiere-marilyn-monroe",
     "imageSourceUrl": "https://www.vogue.com/slideshow/ana-de-armas-blonde-premiere-marilyn-monroe",
-    "alt": "Ana de Armas at Blonde premiere, makeup by Mélanie Inglessis"
+    "alt": "Ana de Armas at Blonde premiere, makeup by Mélanie Inglessis",
+    "summary": "Blonde premiere red carpet with a Marilyn-inspired beauty concept; hair by Jenny Cho, makeup by Mélanie Inglessis."
   },
   {
     "id": "p15",
@@ -340,11 +428,15 @@
     "title": "Golden Globes",
     "talent": "Ana de Armas",
     "year": "2023",
-    "categories": ["RED CARPET"],
+    "categories": [
+      "RED CARPET"
+    ],
     "publication": "Vogue",
     "featured": false,
     "order": 15,
-    "peopleSlugs": ["ana-de-armas"],
+    "peopleSlugs": [
+      "ana-de-armas"
+    ],
     "heroImage": "images/projects/golden-globes-ana-de-armas-2023/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -355,7 +447,8 @@
     },
     "sourceUrl": "https://www.vogue.com/slideshow/ana-de-armas-golden-globes-louis-vuitton-dress",
     "imageSourceUrl": "https://www.vogue.com/slideshow/ana-de-armas-golden-globes-louis-vuitton-dress",
-    "alt": "Ana de Armas at the Golden Globes, makeup by Mélanie Inglessis"
+    "alt": "Ana de Armas at the Golden Globes, makeup by Mélanie Inglessis",
+    "summary": "Golden Globes red carpet for Ana de Armas in Louis Vuitton, with makeup by Mélanie Inglessis and hair by Jenny Cho."
   },
   {
     "id": "m01",
@@ -363,11 +456,15 @@
     "title": "Taste",
     "talent": "Jenna Ortega",
     "year": null,
-    "categories": ["MOTION"],
+    "categories": [
+      "MOTION"
+    ],
     "brand": "Taste",
     "featured": false,
     "order": 20,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/motion-taste-jenna-ortega/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -377,7 +474,8 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "Jenna Ortega Taste music video, makeup by Mélanie Inglessis"
+    "alt": "Jenna Ortega Taste music video, makeup by Mélanie Inglessis",
+    "summary": "Motion credit listed by Forward Artists: Jenna Ortega / Taste / Dir. Dave Meyers (Jenna appears in Sabrina Carpenter’s Taste video)."
   },
   {
     "id": "m02",
@@ -385,7 +483,10 @@
     "title": "Luminous Silk Foundation",
     "talent": "Adria Arjona and Madisin Ryan",
     "year": null,
-    "categories": ["MOTION", "CAMPAIGNS"],
+    "categories": [
+      "MOTION",
+      "CAMPAIGNS"
+    ],
     "brand": "Giorgio Armani",
     "featured": false,
     "order": 21,
@@ -399,7 +500,8 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "Giorgio Armani Luminous Silk campaign, makeup by Mélanie Inglessis"
+    "alt": "Giorgio Armani Luminous Silk campaign, makeup by Mélanie Inglessis",
+    "summary": "Giorgio Armani “Luminous Silk Foundation” campaign with Adria Arjona and Madisin Ryan, directed by Nathalie Canguilhem."
   },
   {
     "id": "m03",
@@ -407,11 +509,16 @@
     "title": "Doritos — Dina & Mita",
     "talent": "Jenna Ortega",
     "year": null,
-    "categories": ["MOTION", "CAMPAIGNS"],
+    "categories": [
+      "MOTION",
+      "CAMPAIGNS"
+    ],
     "brand": "Doritos",
     "featured": false,
     "order": 22,
-    "peopleSlugs": ["jenna-ortega"],
+    "peopleSlugs": [
+      "jenna-ortega"
+    ],
     "heroImage": "images/projects/motion-doritos-dina-mita/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -421,7 +528,8 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "Doritos Dina & Mita commercial with Jenna Ortega, makeup by Mélanie Inglessis"
+    "alt": "Doritos Dina & Mita commercial with Jenna Ortega, makeup by Mélanie Inglessis",
+    "summary": "Doritos “Dina & Mita” commercial starring Jenna Ortega, directed by Alaska."
   },
   {
     "id": "m04",
@@ -429,11 +537,16 @@
     "title": "Only Natural Diamonds",
     "talent": "Ana de Armas",
     "year": null,
-    "categories": ["MOTION", "CAMPAIGNS"],
+    "categories": [
+      "MOTION",
+      "CAMPAIGNS"
+    ],
     "brand": "Only Natural Diamonds",
     "featured": false,
     "order": 23,
-    "peopleSlugs": ["ana-de-armas"],
+    "peopleSlugs": [
+      "ana-de-armas"
+    ],
     "heroImage": "images/projects/motion-only-natural-diamonds/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -442,7 +555,8 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "Only Natural Diamonds campaign with Ana de Armas, makeup by Mélanie Inglessis"
+    "alt": "Only Natural Diamonds campaign with Ana de Armas, makeup by Mélanie Inglessis",
+    "summary": "Only Natural Diamonds campaign with Ana de Armas — Forward Artists motion credit."
   },
   {
     "id": "m05",
@@ -450,11 +564,16 @@
     "title": "La Mer",
     "talent": "Ana de Armas",
     "year": null,
-    "categories": ["MOTION", "CAMPAIGNS"],
+    "categories": [
+      "MOTION",
+      "CAMPAIGNS"
+    ],
     "brand": "La Mer",
     "featured": false,
     "order": 24,
-    "peopleSlugs": ["ana-de-armas"],
+    "peopleSlugs": [
+      "ana-de-armas"
+    ],
     "heroImage": "images/projects/motion-la-mer-ana-de-armas/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -463,7 +582,8 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "La Mer campaign with Ana de Armas, makeup by Mélanie Inglessis"
+    "alt": "La Mer campaign with Ana de Armas, makeup by Mélanie Inglessis",
+    "summary": "La Mer campaign with Ana de Armas — Forward Artists motion credit."
   },
   {
     "id": "m06",
@@ -471,11 +591,15 @@
     "title": "Slumber Party",
     "talent": "Britney Spears",
     "year": null,
-    "categories": ["MOTION"],
+    "categories": [
+      "MOTION"
+    ],
     "brand": "Slumber Party",
     "featured": false,
     "order": 25,
-    "peopleSlugs": ["britney-spears"],
+    "peopleSlugs": [
+      "britney-spears"
+    ],
     "heroImage": "images/projects/motion-britney-slumber-party/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -485,7 +609,8 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "Britney Spears Slumber Party music video, makeup by Mélanie Inglessis"
+    "alt": "Britney Spears Slumber Party music video, makeup by Mélanie Inglessis",
+    "summary": "Britney Spears “Slumber Party” music video, directed by Colin Tilley — archive motion credit on Forward Artists."
   },
   {
     "id": "m07",
@@ -493,11 +618,15 @@
     "title": "Make Me",
     "talent": "Britney Spears",
     "year": null,
-    "categories": ["MOTION"],
+    "categories": [
+      "MOTION"
+    ],
     "brand": "Make Me",
     "featured": false,
     "order": 26,
-    "peopleSlugs": ["britney-spears"],
+    "peopleSlugs": [
+      "britney-spears"
+    ],
     "heroImage": "images/projects/motion-britney-make-me/hero.jpg",
     "galleryImages": [],
     "credits": {
@@ -507,7 +636,8 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "Britney Spears Make Me music video, makeup by Mélanie Inglessis"
+    "alt": "Britney Spears Make Me music video, makeup by Mélanie Inglessis",
+    "summary": "Britney Spears “Make Me” music video, directed by Randee St. Nicholas — archive motion credit on Forward Artists."
   },
   {
     "id": "m08",
@@ -515,7 +645,10 @@
     "title": "L’Oréal Paris",
     "talent": "Eva Longoria and Aja Naomi King",
     "year": null,
-    "categories": ["MOTION", "CAMPAIGNS"],
+    "categories": [
+      "MOTION",
+      "CAMPAIGNS"
+    ],
     "brand": "L’Oréal Paris",
     "featured": false,
     "order": 27,
@@ -528,6 +661,7 @@
     },
     "sourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "imageSourceUrl": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
-    "alt": "L’Oréal Paris campaign, makeup by Mélanie Inglessis"
+    "alt": "L’Oréal Paris campaign, makeup by Mélanie Inglessis",
+    "summary": "L’Oréal Paris campaign with Eva Longoria and Aja Naomi King — Forward Artists motion credit."
   }
 ]
