@@ -207,37 +207,49 @@ def build_home():
     carousel_slugs = SITE.get("heroCarouselSlugs") or SITE["homepageProjectSlugs"][:5]
     slides = []
     dots = []
+    first = PROJECTS_BY_SLUG[carousel_slugs[0]]
+    first_meta = " · ".join(
+        x for x in [first.get("talent"), first.get("publication") or first.get("brand"), first.get("year")] if x
+    )
     for i, slug in enumerate(carousel_slugs):
         p = PROJECTS_BY_SLUG[slug]
-        media = media_for(OUT, p.get("heroImage"), p.get("alt") or p["title"], p["title"])
+        img = f"images/carousel/{slug}.jpg"
+        if not (OUT / img).exists():
+            img = p.get("heroImage")
+        media = media_for(OUT, img, p.get("alt") or p["title"], p["title"])
         active = " is-active" if i == 0 else ""
-        caption = " · ".join(
+        meta = " · ".join(
             x for x in [p.get("talent"), p.get("publication") or p.get("brand"), p.get("year")] if x
         )
+        href = f"work/{p['slug']}.html"
         slides.append(
-            f'<div class="hero-carousel__slide{active}" data-slide="{i}">'
-            f'<a class="hero-carousel__media" href="work/{p["slug"]}.html">{media}'
-            f'<span class="hero-carousel__caption"><strong>{p["title"]}</strong>{caption}</span></a></div>'
+            f'<div class="hero-carousel__slide{active}" data-slide="{i}" '
+            f'data-title="{p["title"]}" data-meta="{meta}" data-href="{href}">'
+            f'<div class="hero-carousel__media">{media}</div></div>'
         )
         dots.append(
             f'<button type="button" class="hero-carousel__dot{active}" data-go="{i}" aria-label="Slide {i+1}"></button>'
         )
-    hero = PROJECTS_BY_SLUG[carousel_slugs[0]]
     body = f"""
 <section class="hero-identity hero-identity--carousel">
   <div class="hero-carousel" data-hero-carousel>
     <div class="hero-carousel__track">{''.join(slides)}</div>
-    <div class="hero-carousel__controls">
-      <button type="button" class="hero-carousel__nav" data-hero-prev aria-label="Previous">←</button>
-      <div class="hero-carousel__dots">{''.join(dots)}</div>
-      <button type="button" class="hero-carousel__nav" data-hero-next aria-label="Next">→</button>
-    </div>
   </div>
   <div class="hero-identity__copy">
-    <h1 class="hero-identity__name reveal">{SITE['name']}</h1>
-    <p class="hero-identity__role reveal">{SITE['role']}</p>
-    <p class="hero-identity__place reveal">{SITE['location']}</p>
-    <p class="hero-identity__intro reveal">{SITE['tagline']}</p>
+    <p class="hero-identity__role">{SITE['role']}</p>
+    <h1 class="hero-identity__name">{SITE['name']}</h1>
+    <p class="hero-identity__place">{SITE['location']}</p>
+    <div class="hero-identity__project" data-hero-project>
+      <a class="hero-identity__project-link" href="work/{first['slug']}.html" data-hero-link>
+        <span class="hero-identity__project-title" data-hero-title>{first['title']}</span>
+        <span class="hero-identity__project-meta" data-hero-meta>{first_meta}</span>
+      </a>
+    </div>
+    <div class="hero-carousel__controls">
+      <button type="button" class="hero-carousel__nav" data-hero-prev aria-label="Previous">Prev</button>
+      <div class="hero-carousel__dots">{''.join(dots)}</div>
+      <button type="button" class="hero-carousel__nav" data-hero-next aria-label="Next">Next</button>
+    </div>
   </div>
 </section>
 <section class="project-stack" id="work">
@@ -251,7 +263,7 @@ def build_home():
             OUT,
             "home",
             body,
-            hero.get("heroImage"),
+            f"images/carousel/{carousel_slugs[0]}.jpg",
         ),
         encoding="utf-8",
     )
