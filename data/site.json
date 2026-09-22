@@ -1,0 +1,109 @@
+{
+  "name": "Mélanie Inglessis",
+  "nameAscii": "Melanie Inglessis",
+  "role": "Makeup Artist",
+  "location": "Los Angeles / Worldwide",
+  "tagline": "Mélanie Inglessis is a Los Angeles-based makeup artist known for luminous skin, refined glamour and a subtle rock ’n’ roll edge. Her work spans celebrity, editorial, red carpet, advertising and motion.",
+  "about": "Mélanie Inglessis is a Los Angeles-based makeup artist whose work moves between celebrity, fashion, editorial, advertising and film. Known for luminous, light-bearing skin and a refined edge, she studied at the London College of Fashion before developing her technique alongside leading artists including Charlotte Tilbury, Pat McGrath and Val Garland. Her current client roster includes Ana de Armas, Jenna Ortega, Olivia Wilde, Kate Hudson, Karlie Kloss, Ruth Negga, Rosamund Pike and Natalie Portman. Represented worldwide by Forward Artists, she continues to work internationally.",
+  "aboutPortrait": "images/about/melanie-inglessis-portrait.jpg",
+  "aboutPortraitSource": "https://www.thecut.com/article/jenna-ortega-makeup-artist-melanie-inglessis-inspired-by-subcultures.html",
+  "aboutExtra": [
+    "French-born and Los Angeles–based, Mélanie brings a music-subculture sensibility — psychobilly to rockabilly — into red-carpet and editorial beauty, always with luminous skin at the center.",
+    "Beauty media regularly turns to her as both a celebrity technician and an expert voice on gothic, alternative and soft-goth eye makeup trends.",
+    "Beyond the carpet, her motion and campaign work spans Giorgio Armani Beauty, Estée Lauder, La Mer, L’Oréal Paris, Netflix and music videos including Britney Spears."
+  ],
+  "aboutHighlights": [
+    {
+      "label": "Base",
+      "value": "Los Angeles / Worldwide"
+    },
+    {
+      "label": "Representation",
+      "value": "Forward Artists"
+    },
+    {
+      "label": "Training",
+      "value": "London College of Fashion"
+    },
+    {
+      "label": "Mentors",
+      "value": "Charlotte Tilbury · Pat McGrath · Val Garland"
+    },
+    {
+      "label": "Signature",
+      "value": "Light-bearing skin · rock ’n’ roll edge"
+    },
+    {
+      "label": "Instagram",
+      "value": "@melaniemakeup"
+    }
+  ],
+  "homeAboutTeaser": "Luminous skin, refined glamour and a subtle rock ’n’ roll edge — from red carpets to covers, campaigns and motion.",
+  "representation": {
+    "label": "Represented worldwide by",
+    "name": "Forward Artists",
+    "url": "https://www.forwardartists.com/"
+  },
+  "links": {
+    "agencyPress": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "agencyMotion": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
+    "models": "https://models.com/people/Melanie-Inglessis",
+    "instagram": "https://www.instagram.com/melaniemakeup/",
+    "linkedin": "https://www.linkedin.com/in/melanie-inglessis-27aa658"
+  },
+  "footerNote": "Independent portfolio concept. Imagery credited to respective creators/publications.",
+  "nav": [
+    {
+      "label": "Home",
+      "href": "index.html"
+    },
+    {
+      "label": "Work",
+      "href": "work.html"
+    },
+    {
+      "label": "People",
+      "href": "people/index.html"
+    },
+    {
+      "label": "News",
+      "href": "news.html"
+    },
+    {
+      "label": "About",
+      "href": "about.html"
+    },
+    {
+      "label": "Contact",
+      "href": "contact.html"
+    }
+  ],
+  "categories": [
+    "ALL",
+    "EDITORIAL",
+    "COVERS",
+    "RED CARPET",
+    "CAMPAIGNS",
+    "MOTION"
+  ],
+  "homepageProjectSlugs": [
+    "esquire-us-jenna-ortega-2026",
+    "wwd-weekend-ana-de-armas-2025",
+    "sleek-leslie-bibb-2025",
+    "met-gala-jenna-ortega-2025",
+    "ballerina-premiere-ana-de-armas-2025",
+    "thr-cannes-natalie-portman-2015",
+    "academy-museum-gala-olivia-wilde-2024",
+    "oscars-ana-de-armas-2025",
+    "vogue-mexico-jenna-ortega-2025",
+    "actor-awards-2026"
+  ],
+  "heroCarouselSlugs": [
+    "esquire-us-jenna-ortega-2026",
+    "wwd-weekend-ana-de-armas-2025",
+    "sleek-leslie-bibb-2025",
+    "thr-cannes-natalie-portman-2015",
+    "ballerina-premiere-ana-de-armas-2025",
+    "academy-museum-gala-olivia-wilde-2024"
+  ]
+}
