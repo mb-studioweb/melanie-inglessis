@@ -122,24 +122,9 @@
     "note": "Wikimedia Commons portrait — identity only"
   },
   {
-    "path": "images/people/natalie-portman/hero.jpg",
-    "source_page": "https://en.wikipedia.org/wiki/Natalie_Portman",
-    "note": "Wikimedia Commons portrait — identity only"
-  },
-  {
     "path": "images/people/lea-michele/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Lea_Michele",
     "note": "Wikimedia Commons portrait — identity only"
-  },
-  {
-    "path": "images/people/rosamund-pike/hero.jpg",
-    "source_page": "https://www.elle.com/beauty/news/a45385/rosamund-pike-oscars-makeup/",
-    "note": "ELLE og:image"
-  },
-  {
-    "path": "images/people/britney-spears/hero.jpg",
-    "source_page": "https://www.billboard.com/culture/product-recommendations/britney-spears-glory-makeup-tutorial-melanie-inglessis-8462517/",
-    "note": "Billboard og:image"
   },
   {
     "path": "images/projects/motion-armani-luminous-silk/hero.jpg",
@@ -195,12 +180,6 @@
     "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
   },
   {
-    "path": "images/projects/critics-choice-maisy-stella-2025/hero.jpg",
-    "source_page": "https://www.whowhatwear.com/fashion/celebrity/maisy-stella-critics-choice-awards",
-    "image_url": "https://cdn.mos.cms.futurecdn.net/pe2KZmGskZGDm8gtTKVu3i-1920-80.jpg",
-    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
-  },
-  {
     "path": "images/projects/academy-museum-gala-olivia-wilde-2024/hero.jpg",
     "source_page": "https://www.newbeauty.com/view/olivia-wilde-tirtir-foundation-academy-museum-gala",
     "image_url": "https://cdn.sanity.io/images/0vv8moc6/newbeauty/e30a95ef730d01e0c3306d5afdc4718b612a1a8f-2560x1536.jpg",
@@ -234,12 +213,6 @@
     "path": "images/projects/met-gala-olivia-wilde-2016/hero.jpg",
     "source_page": "https://www.hollywoodreporter.com/lifestyle/style/how-olivia-wildes-metallic-smoky-890165/",
     "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2016/05/olivia_wilde_met_gala_look.jpg?w=1440&#038;h=810&#038;crop=1",
-    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
-  },
-  {
-    "path": "images/projects/met-gala-olivia-wilde-2013/hero.jpg",
-    "source_page": "https://www.allure.com/story/behind-the-scenes-olivia-wilde-makeup-met-ball-2013",
-    "image_url": "https://media.allure.com/photos/577195772554df47220a5285/16:9/w_1280,c_limit/beauty-trends-blogs-daily-beauty-reporter-2013-05-07-olivia-wilde-met-ball.jpg",
     "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
   },
   {
@@ -315,12 +288,6 @@
     "note": "Wikimedia identity reference for concept only."
   },
   {
-    "path": "images/people/leslie-bibb/hero.jpg",
-    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/The_law_of_real_property_%28based_on_Minor%27s_Institutes%29_%28IA_cu31924018810006%29.pdf/page1-500px-The_law_of_real_property_%28based_on_Minor%27s_Institutes%29_%28IA_cu31924018810006%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
-    "source_page": "https://www.sleek-mag.com/article/leslie-bibb-starring-in-white-lotus-in-full-bloom/",
-    "note": "Wikimedia identity reference for concept only."
-  },
-  {
     "path": "images/people/eva-longoria/hero.jpg",
     "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Eva_Longoria_Cannes_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
     "source_page": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
@@ -361,5 +328,80 @@
     "source_page": "https://www.thecut.com/article/jenna-ortega-makeup-artist-melanie-inglessis-inspired-by-subcultures.html",
     "image_url": "https://pyxis.nymag.com/v1/imgs/ce0/e38/04da720c1dc2951722da96ff8ae75eb704-forward-artists-Melanie-Inglessis.1x.rsocial.w1200.jpg",
     "note": "About portrait candidate from press og:image — verify identity"
+  },
+  {
+    "path": "images/people/jenna-ortega/hero.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/6/67/Jenna_Ortega_at_2024_Venice_International_Film_Festival_EDITED.jpg/1920px-Jenna_Ortega_at_2024_Venice_International_Film_Festival_EDITED.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Jenna%20Ortega%20at%202024%20Venice%20International%20Film%20Festival%20EDITED.jpg",
+    "note": "People hero for jenna-ortega — verified filename contains person name; concept mockup only.",
+    "commons_title": "Jenna Ortega at 2024 Venice International Film Festival EDITED.jpg"
+  },
+  {
+    "path": "images/people/ana-de-armas/hero.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/2/25/Ana_de_Armas_%2854462813979%29_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Ana%20de%20Armas%20%2854462813979%29%20%28cropped%29.jpg",
+    "note": "People hero for ana-de-armas — verified filename contains person name; concept mockup only.",
+    "commons_title": "Ana de Armas (54462813979) (cropped).jpg"
+  },
+  {
+    "path": "images/people/maisy-stella/hero.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/c8/Maisy_Stella_at_TIFF_2025_-_01_%28cropped%29.jpg/1920px-Maisy_Stella_at_TIFF_2025_-_01_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Maisy%20Stella%20at%20TIFF%202025%20-%2001%20%28cropped%29.jpg",
+    "note": "People hero for maisy-stella — verified filename contains person name; concept mockup only.",
+    "commons_title": "Maisy Stella at TIFF 2025 - 01 (cropped).jpg"
+  },
+  {
+    "path": "images/people/adria-arjona/hero.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/c/cc/Adria_Arjona-7322.jpg/1920px-Adria_Arjona-7322.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "commons_title": "Adria Arjona-7322.jpg",
+    "note": "People hero adria-arjona"
+  },
+  {
+    "path": "images/projects/met-gala-olivia-wilde-2013/hero.jpg",
+    "source_page": "https://www.allure.com/story/behind-the-scenes-olivia-wilde-makeup-met-ball-2013",
+    "image_url": "https://media.allure.com/photos/577195772554df47220a5285/16:9/w_1280,c_limit/beauty-trends-blogs-daily-beauty-reporter-2013-05-07-olivia-wilde-met-ball.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/sleek-leslie-bibb-2025/hero.jpg",
+    "source_page": "https://www.sleek-mag.com/article/leslie-bibb-starring-in-white-lotus-in-full-bloom/",
+    "image_url": "https://www.sleek-mag.com/wp-content/uploads/2025/03/EMMA-LOUISE-SWANSON-SLEEK-x-LESLIE-12.jpg",
+    "note": "Replaced wrong/old Tribeca still with actual Sleek 2025 editorial frame; concept mockup only."
+  },
+  {
+    "path": "images/people/leslie-bibb/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Leslie_Bibb_83rd_Venice_Film_Festival_3.jpg",
+    "image_url": "https://commons.wikimedia.org/wiki/Special:FilePath/Leslie_Bibb_83rd_Venice_Film_Festival_3.jpg",
+    "note": "People hero leslie-bibb — Venice Film Festival recent sharp portrait; concept mockup only."
+  },
+  {
+    "path": "images/people/rosamund-pike/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:MJK_10907_Rosamund_Pike_(Berlinale_2018)_(cropped).jpg",
+    "image_url": "https://commons.wikimedia.org/wiki/File:MJK_10907_Rosamund_Pike_(Berlinale_2018)_(cropped).jpg",
+    "note": "People hero rosamund-pike — Berlinale 2018 sharp portrait; concept mockup only."
+  },
+  {
+    "path": "images/people/britney-spears/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Britney_Spears_2013_(Straighten_Crop).jpg",
+    "image_url": "https://commons.wikimedia.org/wiki/File:Britney_Spears_2013_(Straighten_Crop).jpg",
+    "note": "People hero britney-spears — 2013 KIIS portrait — sharp non-concert; concept mockup only."
+  },
+  {
+    "path": "images/people/rebel-wilson/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File:Rebel_Wilson_-_Girl_Group_-_TIFF_2026-5.jpg",
+    "image_url": "https://commons.wikimedia.org/wiki/File:Rebel_Wilson_-_Girl_Group_-_TIFF_2026-5.jpg",
+    "note": "People hero rebel-wilson — TIFF 2026 recent sharp portrait; concept mockup only."
+  },
+  {
+    "path": "images/projects/critics-choice-maisy-stella-2025/hero.jpg",
+    "source_page": "https://www.whowhatwear.com/fashion/celebrity/maisy-stella-critics-choice-awards",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/pe2KZmGskZGDm8gtTKVu3i.jpg",
+    "note": "Who What Wear Critics Choice Maisy hero; concept mockup only."
+  },
+  {
+    "path": "images/people/natalie-portman/hero.jpg",
+    "source_page": "https://commons.wikimedia.org/wiki/File%3ANatalie_Portman-69211_%28cropped%29.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/6c/Natalie_Portman-69211_%28cropped%29.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=original",
+    "note": "People hero natalie-portman — recent sharp Commons portrait; concept mockup only."
   }
 ]

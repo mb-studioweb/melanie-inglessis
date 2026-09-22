@@ -7,7 +7,7 @@
     "relationshipStatus": "current",
     "order": 1,
     "heroImage": "images/people/jenna-ortega/hero.jpg",
-    "heroImageSource": "https://models.com/work/vogue-mexico-un-espiritu-libre",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File:Jenna%20Ortega%20at%202024%20Venice%20International%20Film%20Festival%20EDITED.jpg",
     "summary": "One of Mélanie’s strongest current collaborations — spanning editorial covers, red carpet and entertainment campaigns.",
     "projectSlugs": [
       "esquire-us-jenna-ortega-2026",
@@ -50,7 +50,7 @@
     "relationshipStatus": "current",
     "order": 2,
     "heroImage": "images/people/ana-de-armas/hero.jpg",
-    "heroImageSource": "https://models.com/work/wwd-wwd-weekend-may-2025-cover",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File:Ana%20de%20Armas%20%2854462813979%29%20%28cropped%29.jpg",
     "summary": "A core current client relationship across red carpet, cover work and beauty campaigns.",
     "projectSlugs": [
       "wwd-weekend-ana-de-armas-2025",
@@ -168,7 +168,7 @@
     "relationshipStatus": "current",
     "order": 7,
     "heroImage": "images/people/rosamund-pike/hero.jpg",
-    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File%3AMJK_10907_Rosamund_Pike_%28Berlinale_2018%29_%28cropped%29.jpg",
     "summary": "Current client with documented Oscars and Golden Globes red-carpet beauty.",
     "projectSlugs": [
       "oscars-rosamund-pike-2015",
@@ -188,7 +188,7 @@
     "relationshipStatus": "current",
     "order": 8,
     "heroImage": "images/people/natalie-portman/hero.jpg",
-    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-press",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File%3ANatalie_Portman-69211_%28cropped%29.jpg",
     "summary": "Current client work including Dior Beauty–linked red-carpet appearances.",
     "projectSlugs": [
       "thr-cannes-natalie-portman-2015",
@@ -230,7 +230,7 @@
     "relationshipStatus": "archive",
     "order": 10,
     "heroImage": "images/people/britney-spears/hero.jpg",
-    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File%3ABritney_Spears_2013_%28Straighten_Crop%29.jpg",
     "summary": "Archive music-industry work including credited music videos Slumber Party and Make Me.",
     "projectSlugs": [
       "motion-britney-slumber-party",
@@ -248,7 +248,7 @@
     "relationshipStatus": "current",
     "order": 11,
     "heroImage": "images/people/maisy-stella/hero.jpg",
-    "heroImageSource": "https://www.whowhatwear.com/fashion/celebrity/maisy-stella-critics-choice-awards",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File:Maisy%20Stella%20at%20TIFF%202025%20-%2001%20%28cropped%29.jpg",
     "summary": "Recent red-carpet collaboration including the 2025 Critics Choice Awards — covered by Who What Wear and Forward Artists press.",
     "projectSlugs": [
       "critics-choice-maisy-stella-2025"
@@ -266,7 +266,7 @@
     "relationshipStatus": "current",
     "order": 12,
     "heroImage": "images/people/leslie-bibb/hero.jpg",
-    "heroImageSource": "https://www.sleek-mag.com/article/leslie-bibb-starring-in-white-lotus-in-full-bloom/",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File%3ALeslie_Bibb_83rd_Venice_Film_Festival_3.jpg",
     "summary": "2025 Sleek Magazine editorial makeup credit timed to White Lotus.",
     "projectSlugs": [
       "sleek-leslie-bibb-2025"
@@ -283,7 +283,7 @@
     "relationshipStatus": "current",
     "order": 13,
     "heroImage": "images/people/adria-arjona/hero.jpg",
-    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File:Adria%20Arjona-7322.jpg",
     "summary": "Giorgio Armani Beauty Luminous Silk campaign with Madisin Ryan — Forward Artists motion credit.",
     "projectSlugs": [
       "motion-armani-luminous-silk"
@@ -317,7 +317,7 @@
     "relationshipStatus": "archive",
     "order": 15,
     "heroImage": "images/people/rebel-wilson/hero.jpg",
-    "heroImageSource": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
+    "heroImageSource": "https://commons.wikimedia.org/wiki/File%3ARebel_Wilson_-_Girl_Group_-_TIFF_2026-5.jpg",
     "summary": "Three Forward Artists motion commercials: Afterpay, Match.com and OLLY.",
     "projectSlugs": [
       "motion-rebel-wilson-afterpay",
