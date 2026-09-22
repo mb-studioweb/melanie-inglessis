@@ -758,7 +758,7 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
     margin: 0 0 0.4rem;
   }
   .hero-identity--carousel .hero-identity__place {
-    margin: 0 0 0.95rem;
+    margin: 0 0 1.15rem;
   }
   .hero-identity__copy {
     padding-bottom: max(1.5rem, env(safe-area-inset-bottom, 0px) + 1rem);
@@ -766,9 +766,9 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
   }
   .hero-identity__project {
     min-height: 3.6rem;
-    margin: 0 0 0.85rem;
-    padding-top: 0.15rem;
-    border-top: 1px solid rgba(255,255,255,0.12);
+    margin: 0 0 1rem;
+    padding-top: 0.85rem;
+    border-top: 1px solid rgba(255,255,255,0.14);
   }
   .hero-identity__project-title {
     font-size: 1.1rem;
