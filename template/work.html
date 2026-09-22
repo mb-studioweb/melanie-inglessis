@@ -49,12 +49,18 @@
 </nav>
 
 
-<header class="page-header">
-  <h1>Work</h1>
-  <p><span data-work-count>52</span> projects</p>
+<header class="page-header page-header--work">
+  <div>
+    <h1>Work</h1>
+    <p><span data-work-count>52</span> projects</p>
+  </div>
+  <div class="view-toggle" data-view-toggle role="group" aria-label="View mode">
+    <button type="button" data-view="grid" class="is-active" aria-pressed="true">Grid</button>
+    <button type="button" data-view="list" aria-pressed="false">List</button>
+  </div>
 </header>
 <div class="filters" data-work-filters><button type="button" data-filter="ALL" class="is-active">ALL</button><button type="button" data-filter="EDITORIAL" class="">EDITORIAL</button><button type="button" data-filter="COVERS" class="">COVERS</button><button type="button" data-filter="RED CARPET" class="">RED CARPET</button><button type="button" data-filter="CAMPAIGNS" class="">CAMPAIGNS</button><button type="button" data-filter="MOTION" class="">MOTION</button></div>
-<section class="work-grid" data-work-grid>
+<section class="work-grid" data-work-grid data-view="grid">
   
 <a class="card reveal" href="work/esquire-us-jenna-ortega-2026.html" data-categories="EDITORIAL">
   <div class="card__media"><img src="images/projects/esquire-us-jenna-ortega-2026/hero.jpg" alt="Jenna Ortega editorial for Esquire U.S., makeup by Mélanie Inglessis" loading="lazy"></div>

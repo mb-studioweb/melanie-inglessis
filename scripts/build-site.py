@@ -310,12 +310,18 @@ def build_work():
     )
     cards = "".join(project_card(p, OUT) for p in PROJECTS)
     body = f"""
-<header class="page-header">
-  <h1>Work</h1>
-  <p><span data-work-count>{len(PROJECTS)}</span> projects</p>
+<header class="page-header page-header--work">
+  <div>
+    <h1>Work</h1>
+    <p><span data-work-count>{len(PROJECTS)}</span> projects</p>
+  </div>
+  <div class="view-toggle" data-view-toggle role="group" aria-label="View mode">
+    <button type="button" data-view="grid" class="is-active" aria-pressed="true">Grid</button>
+    <button type="button" data-view="list" aria-pressed="false">List</button>
+  </div>
 </header>
 <div class="filters" data-work-filters>{filters}</div>
-<section class="work-grid" data-work-grid>
+<section class="work-grid" data-work-grid data-view="grid">
   {cards}
 </section>
 """
@@ -420,7 +426,7 @@ def build_news():
     items = []
     for n in NEWS:
         project = PROJECTS_BY_SLUG.get(n.get("projectSlug") or "")
-        img_path = project.get("heroImage") if project else None
+        img_path = n.get("image") or (project.get("heroImage") if project else None)
         media = media_for(OUT, img_path, n["title"], n["title"])
         project_link = (
             f'<a class="source-link" href="work/{project["slug"]}.html">View project</a>'

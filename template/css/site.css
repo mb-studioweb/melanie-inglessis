@@ -197,15 +197,33 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
   margin: 0;
 }
 
-.project-stack { display: flex; flex-direction: column; }
-.project-tile {
+.project-stack {
+  display: flex;
+  flex-direction: column;
   position: relative;
+}
+.project-tile {
+  position: sticky;
+  top: 0;
+  height: 100svh;
   min-height: 100svh;
   display: grid;
   align-items: end;
   color: #fff;
   overflow: hidden;
+  z-index: 1;
 }
+.project-tile:nth-child(1) { z-index: 1; }
+.project-tile:nth-child(2) { z-index: 2; }
+.project-tile:nth-child(3) { z-index: 3; }
+.project-tile:nth-child(4) { z-index: 4; }
+.project-tile:nth-child(5) { z-index: 5; }
+.project-tile:nth-child(6) { z-index: 6; }
+.project-tile:nth-child(7) { z-index: 7; }
+.project-tile:nth-child(8) { z-index: 8; }
+.project-tile:nth-child(9) { z-index: 9; }
+.project-tile:nth-child(10) { z-index: 10; }
+.project-tile:nth-child(n+11) { z-index: 11; }
 .project-tile__media {
   position: absolute;
   inset: 0;
@@ -216,11 +234,11 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
   height: 100%;
   object-fit: cover;
   object-position: center 25%;
-  transform: scale(1.05);
+  transform: scale(1.04);
   transition: transform 1.2s var(--ease), filter 0.6s;
   filter: brightness(0.62);
 }
-.project-tile:hover .project-tile__media img { transform: scale(1.1); filter: brightness(0.72); }
+.project-tile:hover .project-tile__media img { transform: scale(1.08); filter: brightness(0.72); }
 .project-tile__media::after {
   content: "";
   position: absolute;
@@ -235,6 +253,9 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
   display: grid;
   gap: 1rem;
   width: min(100%, 920px);
+}
+@media (prefers-reduced-motion: reduce) {
+  .project-tile { position: relative; }
 }
 .project-tile__title {
   font-family: var(--font-display);
@@ -262,6 +283,13 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
 .page-header {
   padding: calc(var(--nav-h) + 1.5rem) var(--pad) 1.5rem;
 }
+.page-header--work {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 .page-header h1 {
   font-family: var(--font-display);
   font-size: clamp(2.4rem, 7vw, 5rem);
@@ -277,6 +305,26 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
   font-size: 0.72rem;
   letter-spacing: 0.1em;
   text-transform: uppercase;
+}
+.view-toggle {
+  display: inline-flex;
+  gap: 0.15rem;
+  border: 1px solid var(--line);
+  padding: 0.2rem;
+  font-family: var(--font-mono);
+  font-size: 0.68rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+.view-toggle button {
+  padding: 0.45rem 0.75rem;
+  opacity: 0.45;
+  transition: opacity 0.2s, background 0.2s, color 0.2s;
+}
+.view-toggle button.is-active {
+  opacity: 1;
+  background: #fff;
+  color: #000;
 }
 
 .filters {
@@ -308,6 +356,61 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
 @media (min-width: 1100px) {
   .work-grid { grid-template-columns: repeat(3, 1fr); }
   .people-grid { grid-template-columns: repeat(3, 1fr); }
+}
+.work-grid[data-view="list"] {
+  display: flex;
+  flex-direction: column;
+  gap: 0;
+  padding-top: 0.25rem;
+}
+.work-grid[data-view="list"] .card {
+  display: grid;
+  grid-template-columns: minmax(5.5rem, 7.5rem) 1fr;
+  gap: 0.85rem 1.25rem;
+  align-items: center;
+  padding: 0.85rem 0;
+  border-top: 1px solid var(--line);
+}
+.work-grid[data-view="list"] .card:last-child {
+  border-bottom: 1px solid var(--line);
+}
+.work-grid[data-view="list"] .card__media {
+  aspect-ratio: 3 / 4;
+  margin-bottom: 0;
+  width: 100%;
+}
+.work-grid[data-view="list"] .card__title {
+  font-size: 1.05rem;
+  margin: 0 0 0.2rem;
+}
+.work-grid[data-view="list"] .card__meta {
+  margin: 0;
+}
+@media (min-width: 700px) {
+  .work-grid[data-view="list"] .card {
+    grid-template-columns: minmax(7rem, 9rem) minmax(0, 1.2fr) minmax(0, 1fr);
+    gap: 1rem 1.75rem;
+  }
+  .work-grid[data-view="list"] .card__title {
+    font-size: 1.35rem;
+  }
+  .work-grid[data-view="list"] .card__meta {
+    justify-self: end;
+    text-align: right;
+  }
+}
+@media (min-width: 700px) {
+  .work-grid[data-view="list"] .card__media {
+    grid-row: 1 / 2;
+  }
+  .work-grid[data-view="list"] .card__title {
+    grid-column: 2;
+  }
+  .work-grid[data-view="list"] .card__meta {
+    grid-column: 3;
+    grid-row: 1;
+    align-self: center;
+  }
 }
 .card {
   display: block;

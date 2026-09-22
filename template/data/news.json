@@ -36,6 +36,7 @@
     "title": "Vogue: 2026 eye-makeup trends",
     "summary": "Vogue quotes Mélanie Inglessis on the return of alternative / goth-inspired eye makeup — positioning her as a current beauty authority, not only a celebrity technician.",
     "projectSlug": null,
+    "image": "images/news/eye-makeup-trends-2026.jpg",
     "sourceUrl": "https://www.vogue.com/article/eye-makeup-trends-2026",
     "category": "Press"
   },
@@ -46,6 +47,7 @@
     "title": "The Cut: Inspired by Subcultures",
     "summary": "Mélanie Inglessis on psychobilly roots, ethereal-goth language and Jenna Ortega as muse — The Cut muses interview.",
     "projectSlug": null,
+    "image": "images/news/the-cut-subcultures-2025.jpg",
     "sourceUrl": "https://www.thecut.com/article/jenna-ortega-makeup-artist-melanie-inglessis-inspired-by-subcultures.html",
     "category": "Press"
   },
@@ -96,6 +98,7 @@
     "title": "Dark feminine energy at Wednesday premiere",
     "summary": "Glamour details Inglessis’ sculpted gothic look — radiant skin, smoky lids and bleached brows.",
     "projectSlug": "wednesday-s2-premiere-2025",
+    "image": "images/news/glamour-wednesday-premiere.jpg",
     "sourceUrl": "https://www.glamour.com/story/jenna-ortega-wednesday-premiere-makeup",
     "category": "Red carpet"
   },
@@ -196,6 +199,7 @@
     "title": "Honored at Makeup Artistry Dinner",
     "summary": "Variety: Olivia Wilde helps honor Mélanie Inglessis — “She’s a healer.” Listed on Forward Artists press.",
     "projectSlug": null,
+    "image": "images/news/makeup-artistry-dinner-2020.jpg",
     "sourceUrl": "https://variety.com/2020/scene/news/maya-rudolph-rachel-mcadams-and-olivia-wilde-help-honor-their-makeup-artists-1203493748/",
     "category": "Press"
   }
