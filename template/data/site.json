@@ -13,12 +13,30 @@
     "Beyond the carpet, her motion and campaign work spans Giorgio Armani Beauty, Estée Lauder, La Mer, L’Oréal Paris, Netflix and music videos including Britney Spears."
   ],
   "aboutHighlights": [
-    {"label": "Base", "value": "Los Angeles / Worldwide"},
-    {"label": "Representation", "value": "Forward Artists"},
-    {"label": "Training", "value": "London College of Fashion"},
-    {"label": "Mentors", "value": "Charlotte Tilbury · Pat McGrath · Val Garland"},
-    {"label": "Signature", "value": "Light-bearing skin · rock ’n’ roll edge"},
-    {"label": "Instagram", "value": "@melaniemakeup"}
+    {
+      "label": "Base",
+      "value": "Los Angeles / Worldwide"
+    },
+    {
+      "label": "Representation",
+      "value": "Forward Artists"
+    },
+    {
+      "label": "Training",
+      "value": "London College of Fashion"
+    },
+    {
+      "label": "Mentors",
+      "value": "Charlotte Tilbury · Pat McGrath · Val Garland"
+    },
+    {
+      "label": "Signature",
+      "value": "Light-bearing skin · rock ’n’ roll edge"
+    },
+    {
+      "label": "Instagram",
+      "value": "@melaniemakeup"
+    }
   ],
   "homeAboutTeaser": "Luminous skin, refined glamour and a subtle rock ’n’ roll edge — from red carpets to covers, campaigns and motion.",
   "representation": {
@@ -74,7 +92,7 @@
     "sleek-leslie-bibb-2025",
     "met-gala-jenna-ortega-2025",
     "ballerina-premiere-ana-de-armas-2025",
-    "critics-choice-maisy-stella-2025",
+    "thr-cannes-natalie-portman-2015",
     "academy-museum-gala-olivia-wilde-2024",
     "oscars-ana-de-armas-2025",
     "vogue-mexico-jenna-ortega-2025",
@@ -84,7 +102,7 @@
     "esquire-us-jenna-ortega-2026",
     "wwd-weekend-ana-de-armas-2025",
     "sleek-leslie-bibb-2025",
-    "critics-choice-maisy-stella-2025",
+    "thr-cannes-natalie-portman-2015",
     "ballerina-premiere-ana-de-armas-2025",
     "academy-museum-gala-olivia-wilde-2024"
   ]
