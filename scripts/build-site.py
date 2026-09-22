@@ -165,16 +165,23 @@ def project_card(p: dict, from_dir: Path, index: int | None = None) -> str:
     talent = p.get("talent") or p.get("publication") or p.get("brand") or ""
     meta = " · ".join(x for x in [p.get("talent"), year, (p.get("categories") or [None])[0]] if x)
     media = media_for(from_dir, p.get("heroImage"), p.get("alt") or p["title"], p["title"])
-    idx = f'<span class="card__index">{index:02d}</span>' if index is not None else ""
+    idx = f'<span class="card__index">{index}</span>' if index is not None else ""
     year_html = f'<span class="card__year">{year}</span>' if year else '<span class="card__year"></span>'
     client_html = f'<span class="card__client">{talent}</span>' if talent else '<span class="card__client"></span>'
+    arrow = (
+        '<span class="card__arrow" aria-hidden="true">'
+        '<svg viewBox="0 0 16 16" width="16" height="16" focusable="false">'
+        '<path d="M12.175 9L6.575 14.6L8 16L16 8L8 0L6.575 1.4L12.175 7H0V9H12.175Z" fill="currentColor"/>'
+        "</svg></span>"
+    )
     return f"""
 <a class="card reveal" href="{href}" data-categories="{cats}">
   {idx}
   <div class="card__media">{media}</div>
   <h3 class="card__title">{p['title']}</h3>
-  {year_html}
   {client_html}
+  {year_html}
+  {arrow}
   <p class="card__meta">{meta}</p>
 </a>
 """

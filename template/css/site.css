@@ -360,12 +360,15 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
   .people-grid { grid-template-columns: repeat(3, 1fr); }
 }
 
-/* Grid mode: image cards */
-.work-view--grid .card__index,
-.work-view--grid .card__year,
-.work-view--grid .card__client {
+/* List-only fields: hidden everywhere except Work List view */
+.card__index,
+.card__year,
+.card__client,
+.card__arrow {
   display: none;
 }
+
+/* Grid mode: image cards */
 .work-view--grid .card__media {
   display: block;
 }
@@ -373,24 +376,32 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
   display: block;
 }
 
-/* List mode — Framer Untitled Film style: numbered rows */
+/*
+  List mode — mirror untitledfilm.framer.website/work-list
+  Desktop: index | title | client (≈50%) | year | →
+  Mobile:  index | title | client (≈50%) | →   (year hidden)
+  All cells: Spline Sans Mono 13px / 500 / uppercase
+*/
 .work-view--list {
   display: flex;
   flex-direction: column;
   gap: 0;
-  padding-top: 0.35rem;
+  padding-top: 0.25rem;
 }
 .work-view--list .card {
   display: grid;
-  grid-template-columns: 2.5rem minmax(0, 1.4fr) 4.5rem minmax(0, 1fr);
-  align-items: baseline;
-  gap: 0.75rem 1.25rem;
-  padding: 1.05rem 0;
-  border-top: 1px solid var(--line);
+  grid-template-columns: 1.5rem minmax(0, 1fr) minmax(0, 1fr) 1rem;
+  align-items: center;
+  column-gap: 0.75rem;
+  row-gap: 0;
+  min-height: 3.2rem;
+  padding: 0.625rem 0;
+  border-top: 1px solid var(--muted);
+  color: #fff;
   transition: opacity 0.2s;
 }
 .work-view--list .card:last-child {
-  border-bottom: 1px solid var(--line);
+  border-bottom: 1px solid var(--muted);
 }
 .work-view--list .card:hover {
   opacity: 0.72;
@@ -399,63 +410,59 @@ body.nav-open .site-menu { opacity: 1; pointer-events: auto; }
 .work-view--list .card__meta {
   display: none;
 }
+.work-view--list .card__index,
+.work-view--list .card__title,
+.work-view--list .card__client,
+.work-view--list .card__year,
+.work-view--list .card__arrow {
+  font-family: var(--font-mono);
+  font-size: 0.8125rem; /* 13px */
+  font-weight: 500;
+  line-height: 1.2;
+  letter-spacing: -0.01em;
+  text-transform: uppercase;
+  color: #fff;
+  margin: 0;
+}
 .work-view--list .card__index {
   display: block;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  color: var(--muted);
+  min-width: 1rem;
 }
 .work-view--list .card__title {
   display: block;
-  margin: 0;
-  font-size: clamp(1.05rem, 2.2vw, 1.55rem);
-  font-weight: 500;
-  letter-spacing: -0.02em;
-}
-.work-view--list .card__year {
-  display: block;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.08em;
-  color: var(--muted);
-  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
 .work-view--list .card__client {
   display: block;
-  font-family: var(--font-mono);
-  font-size: 0.72rem;
-  letter-spacing: 0.06em;
-  color: rgba(255,255,255,0.78);
-  text-align: right;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
 }
-@media (max-width: 699px) {
+.work-view--list .card__arrow {
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+  width: 1rem;
+  height: 1rem;
+}
+.work-view--list .card__arrow svg {
+  display: block;
+  width: 1rem;
+  height: 1rem;
+}
+@media (min-width: 700px) {
   .work-view--list .card {
-    grid-template-columns: 2rem minmax(0, 1fr);
-    grid-template-rows: auto auto;
-  }
-  .work-view--list .card__index {
-    grid-row: 1 / span 2;
-    align-self: start;
-    padding-top: 0.2rem;
-  }
-  .work-view--list .card__title {
-    grid-column: 2;
-  }
-  .work-view--list .card__year,
-  .work-view--list .card__client {
-    grid-column: 2;
-    text-align: left;
+    grid-template-columns: 2.75rem minmax(0, 1fr) minmax(0, 1fr) 3.25rem 1rem;
+    column-gap: 1.25rem;
+    min-height: 2.25rem;
+    padding: 0.625rem 0;
   }
   .work-view--list .card__year {
-    display: inline;
-  }
-  .work-view--list .card__client {
-    display: inline;
-  }
-  .work-view--list .card__year::after {
-    content: " · ";
-    color: var(--muted);
+    display: block;
+    text-align: right;
+    white-space: nowrap;
   }
 }
 
