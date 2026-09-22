@@ -104,32 +104,32 @@
   {
     "path": "images/people/olivia-wilde/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Olivia_Wilde",
-    "note": "Wikimedia Commons portrait \u2014 identity only, not a M\u00e9lanie makeup credit photo"
+    "note": "Wikimedia Commons portrait — identity only, not a Mélanie makeup credit photo"
   },
   {
     "path": "images/people/kate-hudson/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Kate_Hudson",
-    "note": "Wikimedia Commons portrait \u2014 identity only"
+    "note": "Wikimedia Commons portrait — identity only"
   },
   {
     "path": "images/people/karlie-kloss/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Karlie_Kloss",
-    "note": "Wikimedia Commons portrait \u2014 identity only"
+    "note": "Wikimedia Commons portrait — identity only"
   },
   {
     "path": "images/people/ruth-negga/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Ruth_Negga",
-    "note": "Wikimedia Commons portrait \u2014 identity only"
+    "note": "Wikimedia Commons portrait — identity only"
   },
   {
     "path": "images/people/natalie-portman/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Natalie_Portman",
-    "note": "Wikimedia Commons portrait \u2014 identity only"
+    "note": "Wikimedia Commons portrait — identity only"
   },
   {
     "path": "images/people/lea-michele/hero.jpg",
     "source_page": "https://en.wikipedia.org/wiki/Lea_Michele",
-    "note": "Wikimedia Commons portrait \u2014 identity only"
+    "note": "Wikimedia Commons portrait — identity only"
   },
   {
     "path": "images/people/rosamund-pike/hero.jpg",
@@ -175,5 +175,155 @@
     "path": "images/projects/motion-britney-make-me/hero.jpg",
     "source_page": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
     "note": "Forward Artists / YT still"
+  },
+  {
+    "path": "images/projects/emmys-jenna-ortega-2025/hero.jpg",
+    "source_page": "https://variety.com/2025/shopping/news/jenna-ortega-emmys-makeup-products-buy-online-1236519318/",
+    "image_url": "https://variety.com/wp-content/uploads/2025/09/GettyImages-2234936458-1.jpg?w=1000&#038;h=563&#038;crop=1",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/ballerina-premiere-ana-de-armas-2025/hero.jpg",
+    "source_page": "https://www.harpersbazaar.com/uk/beauty/make-up-nails/a64822567/getting-ready-with-ana-de-armas-ballerina-premiere/",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/ana-de-armas-ballerina-premier-68300e3bc3637.jpg?crop=1xw:0.75xh;center,top&resize=1200:*",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/oscars-ana-de-armas-2025/hero.jpg",
+    "source_page": "https://www.harpersbazaar.com/beauty/makeup/g64001522/best-hair-makeup-beauty-oscars-2025/",
+    "image_url": "https://hips.hearstapps.com/hmg-prod/images/emma-stone-attends-the-97th-annual-oscars-at-dolby-theatre-news-photo-1740958852.pjpeg?crop=1.00xw:0.334xh;0,0.0545xh&resize=1200:*",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/critics-choice-maisy-stella-2025/hero.jpg",
+    "source_page": "https://www.whowhatwear.com/fashion/celebrity/maisy-stella-critics-choice-awards",
+    "image_url": "https://cdn.mos.cms.futurecdn.net/pe2KZmGskZGDm8gtTKVu3i-1920-80.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/academy-museum-gala-olivia-wilde-2024/hero.jpg",
+    "source_page": "https://www.newbeauty.com/view/olivia-wilde-tirtir-foundation-academy-museum-gala",
+    "image_url": "https://cdn.sanity.io/images/0vv8moc6/newbeauty/e30a95ef730d01e0c3306d5afdc4718b612a1a8f-2560x1536.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/beetlejuice-press-tour-2024/hero.jpg",
+    "source_page": "https://www.newbeauty.com/view/jenna-ortega-beetlejuice-press-tour-makeup-looks",
+    "image_url": "https://cdn.sanity.io/images/0vv8moc6/newbeauty/1e277fdd1ba1d5e1ea8fb930d9a67f634cffb32f-2560x1536.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/emmys-jenna-ortega-2024/hero.jpg",
+    "source_page": "https://www.glamour.com/story/jenna-ortega-emmys-look-2024",
+    "image_url": "https://media.glamour.com/photos/65a5daafa9af47bf0e3bcde0/16:9/w_1280,c_limit/1928394442",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/vf-oscars-afterparty-olivia-wilde-2018/hero.jpg",
+    "source_page": "https://www.vogue.com/article/olivia-wilde-oscars-vanity-fair-after-party-los-angeles-roberto-cavalli-gold-dress-2018",
+    "image_url": "https://assets.vogue.com/photos/5a9d6753a8e2b84d5b0f2602/16:9/w_1280,c_limit/00-social-olivia-wilde-beauty-diary-oscars.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/oscars-olivia-wilde-2016/hero.jpg",
+    "source_page": "https://www.hollywoodreporter.com/movies/movie-news/olivia-wildes-makeup-2016-oscars-871430/",
+    "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2016/02/gettyimages-512946828.jpg?w=1047&#038;h=810&#038;crop=1",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/met-gala-olivia-wilde-2016/hero.jpg",
+    "source_page": "https://www.hollywoodreporter.com/lifestyle/style/how-olivia-wildes-metallic-smoky-890165/",
+    "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2016/05/olivia_wilde_met_gala_look.jpg?w=1440&#038;h=810&#038;crop=1",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/met-gala-olivia-wilde-2013/hero.jpg",
+    "source_page": "https://www.allure.com/story/behind-the-scenes-olivia-wilde-makeup-met-ball-2013",
+    "image_url": "https://media.allure.com/photos/577195772554df47220a5285/16:9/w_1280,c_limit/beauty-trends-blogs-daily-beauty-reporter-2013-05-07-olivia-wilde-met-ball.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/golden-globes-olivia-wilde-2014/hero.jpg",
+    "source_page": "https://www.hollywoodreporter.com/news/general-news/golden-globes-2014-beauty-olivia-670610/",
+    "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2014/01/olivia_wilde_look_of_the_night_a_p.jpg?w=1440&#038;h=810&#038;crop=1",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/golden-globes-kate-hudson-2016/hero.jpg",
+    "source_page": "https://www.eonline.com/news/730048/kate-hudson-s-signature-glow-how-to-get-her-golden-globes-2016-makeup-look",
+    "image_url": "https://akns-images.eonline.com/eol_images/Entire_Site/2016010/rs_600x600-160110211400-600-kate-hudson-golden-globes-beauty.jpg?fit=around%7C1200:1200&output-quality=90&crop=1200:1200;center,top",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/fabletics-ss2015-kate-hudson/hero.jpg",
+    "source_page": "https://www.designscene.net/2015/01/kate-hudsons-fabletics-spring-summer-2015.html",
+    "image_url": "https://www.designscene.net/wp-content/uploads/2015/01/Kate-Hudson-Fabletics-Spring-Summer-2015-00.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/oscars-ruth-negga-2017/hero.jpg",
+    "source_page": "https://www.healthista.com/ruth-neggas-makeup-artist-reveals-get-red-carpet-look-exclusive/",
+    "image_url": "https://www.healthista.com/wp-content/uploads/2017/02/Ruth-Neggas-makeup-artist-reveals-how-to-get-her-red-carpet-look-by-healthista-4.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/golden-globes-ruth-negga-2017/hero.jpg",
+    "source_page": "https://www.hollywoodreporter.com/lifestyle/style/golden-globes-2017-ruth-negga-beauty-look-962989/",
+    "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2017/01/ruth_negga_74th_golden_globes_hmu_-_getty_-_p_2017.jpg?w=1047&#038;h=810&#038;crop=1",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/met-gala-ruth-negga-2017/hero.jpg",
+    "source_page": "https://www.hollywoodreporter.com/lifestyle/style/ruth-neggas-met-gala-2017-makeup-999556/",
+    "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2017/05/gettyimages-675640600-h_2017.jpg?w=1296&#038;h=730&#038;crop=1",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/oscars-rosamund-pike-2015/hero.jpg",
+    "source_page": "https://www.allure.com/story/rosamund-pike-oscars-beauty-look-2015",
+    "image_url": "https://media.allure.com/photos/5771a2922554df47220a6377/16:9/w_1280,c_limit/beauty-trends-blogs-daily-beauty-reporter-2015-02-22-rosamund-pike-oscars.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/golden-globes-rosamund-pike-2019/hero.jpg",
+    "source_page": "https://www.usmagazine.com/stylish/news/get-tressed-with-us-podcast-melanie-inglessis-golden-globes-makeup/",
+    "image_url": "https://www.usmagazine.com/wp-content/uploads/2019/01/Rosamund-Pike.jpg?crop=0px%2C422px%2C1333px%2C700px&#038;resize=1200%2C630&#038;quality=55&#038;strip=all",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/thr-cannes-natalie-portman-2015/hero.jpg",
+    "source_page": "https://www.hollywoodreporter.com/news/general-news/how-get-natalie-portmans-gorgeous-793887/",
+    "image_url": "https://www.hollywoodreporter.com/wp-content/uploads/2015/05/portman_cover.jpg?w=1440&#038;h=810&#038;crop=1",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/golden-globes-natalie-portman-2018/hero.jpg",
+    "source_page": "https://hauteliving.com/hautebeauty/627611/4-golden-globes-beauty-looks-love/",
+    "image_url": "https://hauteliving.com/hautebeauty/wp-content/uploads/2018/01/Millie-Bobby-Brown-Hair-2018-Golden-Globes.jpg",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/projects/la-dance-project-gala-natalie-portman-2018/hero.jpg",
+    "source_page": "https://www.usmagazine.com/stylish/news/natalie-portmans-dior-red-lipstick-for-holiday-2018-how-to/",
+    "image_url": "https://www.usmagazine.com/wp-content/uploads/2018/10/natalie-portman1.jpg?crop=0px%2C480px%2C2331px%2C1224px&#038;resize=1200%2C630&#038;quality=78&#038;strip=all",
+    "note": "Downloaded for private concept mockup only. Replace with licensed asset before public launch."
+  },
+  {
+    "path": "images/people/maisy-stella/hero.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/6/66/Maisy_Stella_in_2019.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://www.whowhatwear.com/fashion/celebrity/maisy-stella-critics-choice-awards",
+    "note": "Wikimedia identity reference for concept only."
+  },
+  {
+    "path": "images/people/leslie-bibb/hero.jpg",
+    "image_url": "https://thumb.wikimedia.org/wikipedia/commons/thumb/a/a6/The_law_of_real_property_%28based_on_Minor%27s_Institutes%29_%28IA_cu31924018810006%29.pdf/page1-500px-The_law_of_real_property_%28based_on_Minor%27s_Institutes%29_%28IA_cu31924018810006%29.pdf.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail",
+    "source_page": "https://www.sleek-mag.com/article/leslie-bibb-starring-in-white-lotus-in-full-bloom/",
+    "note": "Wikimedia identity reference for concept only."
+  },
+  {
+    "path": "images/people/eva-longoria/hero.jpg",
+    "image_url": "https://upload.wikimedia.org/wikipedia/commons/1/16/Eva_Longoria_Cannes_2015.jpg?utm_source=commons.wikimedia.org&utm_campaign=imageinfo&utm_content=thumbnail_unscaled",
+    "source_page": "https://www.forwardartists.com/makeup/melanie-inglessis-motion",
+    "note": "Wikimedia identity reference for concept only."
   }
 ]
