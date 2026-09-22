@@ -4,13 +4,15 @@ Miroir statique de [untitledfilm.framer.website](https://untitledfilm.framer.web
 
 ## GitHub Pages
 
-Site prévu sur : **https://mb-studioweb.github.io/melanie-inglessis/**
+URL : **https://mb-studioweb.github.io/melanie-inglessis/**
 
-Activation (une fois) dans le repo GitHub :
+La branche `gh-pages` contient déjà le site. **Activation (une fois)** :
 
-1. **Settings** → **Pages**
-2. **Source** : *GitHub Actions*
-3. Le workflow `Deploy to GitHub Pages` publie le dossier `template/` à chaque push sur `main`
+1. Ouvrir [Settings → Pages](https://github.com/mb-studioweb/melanie-inglessis/settings/pages)
+2. **Source** : *Deploy from a branch*
+3. **Branch** : `gh-pages` / `/ (root)` → **Save**
+
+Ensuite, chaque push sur `main` met à jour `gh-pages` via Actions.
 
 ## Aperçu local
 
